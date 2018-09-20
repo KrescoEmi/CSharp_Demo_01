@@ -355,7 +355,7 @@ namespace CSharp_Demo_01
             bool tmpCheckForErr;
             if (!(comServer_Started)) return;
             pnl = (Panel)this.Controls["pnl_StatusBytes"];
-            if (this.Controls["pnl_StatusBytes"] != null)
+            if (tabPage_Settings.Controls["pnl_StatusBytes"] != null)
             {
 
                 for (i = 0; i <= 7; i++)
@@ -365,7 +365,7 @@ namespace CSharp_Demo_01
                         tmpDescription = serv.get_SBit_Description(i, j);
                         tmpCheckForErr = serv.get_SBit_ErrorChecking(i, j);
                         name = "chbx_S" + i.ToString() + "_" + j.ToString();
-                        ch = this.Controls["pnl_StatusBytes"].Controls["grbx_StatusByte_" + i.ToString()].Controls[name];
+                        ch = tabPage_Settings.Controls["pnl_StatusBytes"].Controls["grbx_StatusByte_" + i.ToString()].Controls[name];
                         if (ch != null)
                         {
                             ch.Text = tmpDescription;
@@ -547,7 +547,7 @@ namespace CSharp_Demo_01
                 for (int j = 0; j <= 7; j++)
                 {
                     var name = "chbx_S" + i.ToString() + "_" + j.ToString();
-                   checkboxes[i, j] = (CheckBox)this.Controls["pnl_StatusBytes"].Controls["grbx_StatusByte_" + i.ToString()].Controls[name];
+                   checkboxes[i, j] = (CheckBox)tabPage_Settings.Controls["pnl_StatusBytes"].Controls["grbx_StatusByte_" + i.ToString()].Controls[name];
                 }
             }
             
@@ -1896,10 +1896,6 @@ namespace CSharp_Demo_01
             }
         }
 
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
 

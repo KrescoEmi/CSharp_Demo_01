@@ -33,7 +33,80 @@
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage_Settings = new System.Windows.Forms.TabPage();
+            this.pnl_StatusBytes = new System.Windows.Forms.Panel();
+            this.grbx_StatusByte_7 = new System.Windows.Forms.GroupBox();
+            this.chbx_S7_0 = new System.Windows.Forms.CheckBox();
+            this.chbx_S7_1 = new System.Windows.Forms.CheckBox();
+            this.chbx_S7_2 = new System.Windows.Forms.CheckBox();
+            this.chbx_S7_3 = new System.Windows.Forms.CheckBox();
+            this.chbx_S7_4 = new System.Windows.Forms.CheckBox();
+            this.chbx_S7_5 = new System.Windows.Forms.CheckBox();
+            this.chbx_S7_6 = new System.Windows.Forms.CheckBox();
+            this.chbx_S7_7 = new System.Windows.Forms.CheckBox();
+            this.grbx_StatusByte_6 = new System.Windows.Forms.GroupBox();
+            this.chbx_S6_0 = new System.Windows.Forms.CheckBox();
+            this.chbx_S6_1 = new System.Windows.Forms.CheckBox();
+            this.chbx_S6_2 = new System.Windows.Forms.CheckBox();
+            this.chbx_S6_3 = new System.Windows.Forms.CheckBox();
+            this.chbx_S6_4 = new System.Windows.Forms.CheckBox();
+            this.chbx_S6_5 = new System.Windows.Forms.CheckBox();
+            this.chbx_S6_6 = new System.Windows.Forms.CheckBox();
+            this.chbx_S6_7 = new System.Windows.Forms.CheckBox();
+            this.grbx_StatusByte_5 = new System.Windows.Forms.GroupBox();
+            this.chbx_S5_0 = new System.Windows.Forms.CheckBox();
+            this.chbx_S5_1 = new System.Windows.Forms.CheckBox();
+            this.chbx_S5_2 = new System.Windows.Forms.CheckBox();
+            this.chbx_S5_3 = new System.Windows.Forms.CheckBox();
+            this.chbx_S5_4 = new System.Windows.Forms.CheckBox();
+            this.chbx_S5_5 = new System.Windows.Forms.CheckBox();
+            this.chbx_S5_6 = new System.Windows.Forms.CheckBox();
+            this.chbx_S5_7 = new System.Windows.Forms.CheckBox();
+            this.grbx_StatusByte_4 = new System.Windows.Forms.GroupBox();
+            this.chbx_S4_0 = new System.Windows.Forms.CheckBox();
+            this.chbx_S4_1 = new System.Windows.Forms.CheckBox();
+            this.chbx_S4_2 = new System.Windows.Forms.CheckBox();
+            this.chbx_S4_3 = new System.Windows.Forms.CheckBox();
+            this.chbx_S4_4 = new System.Windows.Forms.CheckBox();
+            this.chbx_S4_5 = new System.Windows.Forms.CheckBox();
+            this.chbx_S4_6 = new System.Windows.Forms.CheckBox();
+            this.chbx_S4_7 = new System.Windows.Forms.CheckBox();
+            this.grbx_StatusByte_3 = new System.Windows.Forms.GroupBox();
+            this.chbx_S3_0 = new System.Windows.Forms.CheckBox();
+            this.chbx_S3_1 = new System.Windows.Forms.CheckBox();
+            this.chbx_S3_2 = new System.Windows.Forms.CheckBox();
+            this.chbx_S3_3 = new System.Windows.Forms.CheckBox();
+            this.chbx_S3_4 = new System.Windows.Forms.CheckBox();
+            this.chbx_S3_5 = new System.Windows.Forms.CheckBox();
+            this.chbx_S3_6 = new System.Windows.Forms.CheckBox();
+            this.chbx_S3_7 = new System.Windows.Forms.CheckBox();
+            this.grbx_StatusByte_2 = new System.Windows.Forms.GroupBox();
+            this.chbx_S2_0 = new System.Windows.Forms.CheckBox();
+            this.chbx_S2_1 = new System.Windows.Forms.CheckBox();
+            this.chbx_S2_2 = new System.Windows.Forms.CheckBox();
+            this.chbx_S2_3 = new System.Windows.Forms.CheckBox();
+            this.chbx_S2_4 = new System.Windows.Forms.CheckBox();
+            this.chbx_S2_5 = new System.Windows.Forms.CheckBox();
+            this.chbx_S2_6 = new System.Windows.Forms.CheckBox();
+            this.chbx_S2_7 = new System.Windows.Forms.CheckBox();
+            this.grbx_StatusByte_1 = new System.Windows.Forms.GroupBox();
+            this.chbx_S1_0 = new System.Windows.Forms.CheckBox();
+            this.chbx_S1_1 = new System.Windows.Forms.CheckBox();
+            this.chbx_S1_2 = new System.Windows.Forms.CheckBox();
+            this.chbx_S1_3 = new System.Windows.Forms.CheckBox();
+            this.chbx_S1_4 = new System.Windows.Forms.CheckBox();
+            this.chbx_S1_5 = new System.Windows.Forms.CheckBox();
+            this.chbx_S1_6 = new System.Windows.Forms.CheckBox();
+            this.chbx_S1_7 = new System.Windows.Forms.CheckBox();
+            this.grbx_StatusByte_0 = new System.Windows.Forms.GroupBox();
+            this.chbx_S0_0 = new System.Windows.Forms.CheckBox();
+            this.chbx_S0_1 = new System.Windows.Forms.CheckBox();
+            this.chbx_S0_2 = new System.Windows.Forms.CheckBox();
+            this.chbx_S0_3 = new System.Windows.Forms.CheckBox();
+            this.chbx_S0_4 = new System.Windows.Forms.CheckBox();
+            this.chbx_S0_5 = new System.Windows.Forms.CheckBox();
+            this.chbx_S0_6 = new System.Windows.Forms.CheckBox();
+            this.chbx_S0_7 = new System.Windows.Forms.CheckBox();
             this.pnl_Progress = new System.Windows.Forms.Panel();
             this.pb_2 = new System.Windows.Forms.ProgressBar();
             this.pb_1 = new System.Windows.Forms.ProgressBar();
@@ -166,81 +239,18 @@
             this.cbCommands = new System.Windows.Forms.ComboBox();
             this.tbResult = new System.Windows.Forms.TextBox();
             this.btGetCommandList = new System.Windows.Forms.Button();
-            this.pnl_StatusBytes = new System.Windows.Forms.Panel();
-            this.grbx_StatusByte_7 = new System.Windows.Forms.GroupBox();
-            this.chbx_S7_0 = new System.Windows.Forms.CheckBox();
-            this.chbx_S7_1 = new System.Windows.Forms.CheckBox();
-            this.chbx_S7_2 = new System.Windows.Forms.CheckBox();
-            this.chbx_S7_3 = new System.Windows.Forms.CheckBox();
-            this.chbx_S7_4 = new System.Windows.Forms.CheckBox();
-            this.chbx_S7_5 = new System.Windows.Forms.CheckBox();
-            this.chbx_S7_6 = new System.Windows.Forms.CheckBox();
-            this.chbx_S7_7 = new System.Windows.Forms.CheckBox();
-            this.grbx_StatusByte_6 = new System.Windows.Forms.GroupBox();
-            this.chbx_S6_0 = new System.Windows.Forms.CheckBox();
-            this.chbx_S6_1 = new System.Windows.Forms.CheckBox();
-            this.chbx_S6_2 = new System.Windows.Forms.CheckBox();
-            this.chbx_S6_3 = new System.Windows.Forms.CheckBox();
-            this.chbx_S6_4 = new System.Windows.Forms.CheckBox();
-            this.chbx_S6_5 = new System.Windows.Forms.CheckBox();
-            this.chbx_S6_6 = new System.Windows.Forms.CheckBox();
-            this.chbx_S6_7 = new System.Windows.Forms.CheckBox();
-            this.grbx_StatusByte_5 = new System.Windows.Forms.GroupBox();
-            this.chbx_S5_0 = new System.Windows.Forms.CheckBox();
-            this.chbx_S5_1 = new System.Windows.Forms.CheckBox();
-            this.chbx_S5_2 = new System.Windows.Forms.CheckBox();
-            this.chbx_S5_3 = new System.Windows.Forms.CheckBox();
-            this.chbx_S5_4 = new System.Windows.Forms.CheckBox();
-            this.chbx_S5_5 = new System.Windows.Forms.CheckBox();
-            this.chbx_S5_6 = new System.Windows.Forms.CheckBox();
-            this.chbx_S5_7 = new System.Windows.Forms.CheckBox();
-            this.grbx_StatusByte_4 = new System.Windows.Forms.GroupBox();
-            this.chbx_S4_0 = new System.Windows.Forms.CheckBox();
-            this.chbx_S4_1 = new System.Windows.Forms.CheckBox();
-            this.chbx_S4_2 = new System.Windows.Forms.CheckBox();
-            this.chbx_S4_3 = new System.Windows.Forms.CheckBox();
-            this.chbx_S4_4 = new System.Windows.Forms.CheckBox();
-            this.chbx_S4_5 = new System.Windows.Forms.CheckBox();
-            this.chbx_S4_6 = new System.Windows.Forms.CheckBox();
-            this.chbx_S4_7 = new System.Windows.Forms.CheckBox();
-            this.grbx_StatusByte_3 = new System.Windows.Forms.GroupBox();
-            this.chbx_S3_0 = new System.Windows.Forms.CheckBox();
-            this.chbx_S3_1 = new System.Windows.Forms.CheckBox();
-            this.chbx_S3_2 = new System.Windows.Forms.CheckBox();
-            this.chbx_S3_3 = new System.Windows.Forms.CheckBox();
-            this.chbx_S3_4 = new System.Windows.Forms.CheckBox();
-            this.chbx_S3_5 = new System.Windows.Forms.CheckBox();
-            this.chbx_S3_6 = new System.Windows.Forms.CheckBox();
-            this.chbx_S3_7 = new System.Windows.Forms.CheckBox();
-            this.grbx_StatusByte_2 = new System.Windows.Forms.GroupBox();
-            this.chbx_S2_0 = new System.Windows.Forms.CheckBox();
-            this.chbx_S2_1 = new System.Windows.Forms.CheckBox();
-            this.chbx_S2_2 = new System.Windows.Forms.CheckBox();
-            this.chbx_S2_3 = new System.Windows.Forms.CheckBox();
-            this.chbx_S2_4 = new System.Windows.Forms.CheckBox();
-            this.chbx_S2_5 = new System.Windows.Forms.CheckBox();
-            this.chbx_S2_6 = new System.Windows.Forms.CheckBox();
-            this.chbx_S2_7 = new System.Windows.Forms.CheckBox();
-            this.grbx_StatusByte_1 = new System.Windows.Forms.GroupBox();
-            this.chbx_S1_0 = new System.Windows.Forms.CheckBox();
-            this.chbx_S1_1 = new System.Windows.Forms.CheckBox();
-            this.chbx_S1_2 = new System.Windows.Forms.CheckBox();
-            this.chbx_S1_3 = new System.Windows.Forms.CheckBox();
-            this.chbx_S1_4 = new System.Windows.Forms.CheckBox();
-            this.chbx_S1_5 = new System.Windows.Forms.CheckBox();
-            this.chbx_S1_6 = new System.Windows.Forms.CheckBox();
-            this.chbx_S1_7 = new System.Windows.Forms.CheckBox();
-            this.grbx_StatusByte_0 = new System.Windows.Forms.GroupBox();
-            this.chbx_S0_0 = new System.Windows.Forms.CheckBox();
-            this.chbx_S0_1 = new System.Windows.Forms.CheckBox();
-            this.chbx_S0_2 = new System.Windows.Forms.CheckBox();
-            this.chbx_S0_3 = new System.Windows.Forms.CheckBox();
-            this.chbx_S0_4 = new System.Windows.Forms.CheckBox();
-            this.chbx_S0_5 = new System.Windows.Forms.CheckBox();
-            this.chbx_S0_6 = new System.Windows.Forms.CheckBox();
-            this.chbx_S0_7 = new System.Windows.Forms.CheckBox();
+            this.tabPOS = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
+            this.tabPage_Settings.SuspendLayout();
+            this.pnl_StatusBytes.SuspendLayout();
+            this.grbx_StatusByte_7.SuspendLayout();
+            this.grbx_StatusByte_6.SuspendLayout();
+            this.grbx_StatusByte_5.SuspendLayout();
+            this.grbx_StatusByte_4.SuspendLayout();
+            this.grbx_StatusByte_3.SuspendLayout();
+            this.grbx_StatusByte_2.SuspendLayout();
+            this.grbx_StatusByte_1.SuspendLayout();
+            this.grbx_StatusByte_0.SuspendLayout();
             this.pnl_Progress.SuspendLayout();
             this.pnl_Errors.SuspendLayout();
             this.tc_Main.SuspendLayout();
@@ -261,15 +271,6 @@
             this.tp_HEX.SuspendLayout();
             this.tp_ANAF.SuspendLayout();
             this.tp_GetCommandList.SuspendLayout();
-            this.pnl_StatusBytes.SuspendLayout();
-            this.grbx_StatusByte_7.SuspendLayout();
-            this.grbx_StatusByte_6.SuspendLayout();
-            this.grbx_StatusByte_5.SuspendLayout();
-            this.grbx_StatusByte_4.SuspendLayout();
-            this.grbx_StatusByte_3.SuspendLayout();
-            this.grbx_StatusByte_2.SuspendLayout();
-            this.grbx_StatusByte_1.SuspendLayout();
-            this.grbx_StatusByte_0.SuspendLayout();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -282,27 +283,883 @@
             this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage_Settings);
+            this.tabControl1.Controls.Add(this.tabPOS);
+            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(713, 677);
+            this.tabControl1.Size = new System.Drawing.Size(984, 677);
             this.tabControl1.TabIndex = 8;
             // 
-            // tabPage1
+            // tabPage_Settings
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.tabPage1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage1.Controls.Add(this.pnl_Progress);
-            this.tabPage1.Controls.Add(this.pnl_Errors);
-            this.tabPage1.Controls.Add(this.tc_Main);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(705, 651);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            this.tabPage_Settings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.tabPage_Settings.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage_Settings.Controls.Add(this.pnl_StatusBytes);
+            this.tabPage_Settings.Controls.Add(this.pnl_Progress);
+            this.tabPage_Settings.Controls.Add(this.pnl_Errors);
+            this.tabPage_Settings.Controls.Add(this.tc_Main);
+            this.tabPage_Settings.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage_Settings.Location = new System.Drawing.Point(4, 29);
+            this.tabPage_Settings.Name = "tabPage_Settings";
+            this.tabPage_Settings.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_Settings.Size = new System.Drawing.Size(976, 644);
+            this.tabPage_Settings.TabIndex = 0;
+            this.tabPage_Settings.Text = "Settings";
+            // 
+            // pnl_StatusBytes
+            // 
+            this.pnl_StatusBytes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnl_StatusBytes.AutoScroll = true;
+            this.pnl_StatusBytes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.pnl_StatusBytes.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_7);
+            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_6);
+            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_5);
+            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_4);
+            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_3);
+            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_2);
+            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_1);
+            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_0);
+            this.pnl_StatusBytes.Location = new System.Drawing.Point(701, 6);
+            this.pnl_StatusBytes.Name = "pnl_StatusBytes";
+            this.pnl_StatusBytes.Size = new System.Drawing.Size(265, 433);
+            this.pnl_StatusBytes.TabIndex = 59;
+            this.pnl_StatusBytes.Visible = false;
+            // 
+            // grbx_StatusByte_7
+            // 
+            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_0);
+            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_1);
+            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_2);
+            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_3);
+            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_4);
+            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_5);
+            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_6);
+            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_7);
+            this.grbx_StatusByte_7.Location = new System.Drawing.Point(3, 1159);
+            this.grbx_StatusByte_7.Name = "grbx_StatusByte_7";
+            this.grbx_StatusByte_7.Size = new System.Drawing.Size(329, 160);
+            this.grbx_StatusByte_7.TabIndex = 48;
+            this.grbx_StatusByte_7.TabStop = false;
+            // 
+            // chbx_S7_0
+            // 
+            this.chbx_S7_0.AutoCheck = false;
+            this.chbx_S7_0.AutoSize = true;
+            this.chbx_S7_0.Location = new System.Drawing.Point(6, 138);
+            this.chbx_S7_0.Name = "chbx_S7_0";
+            this.chbx_S7_0.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S7_0.TabIndex = 63;
+            this.chbx_S7_0.Text = "chbx_S7_0";
+            this.chbx_S7_0.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S7_1
+            // 
+            this.chbx_S7_1.AutoCheck = false;
+            this.chbx_S7_1.AutoSize = true;
+            this.chbx_S7_1.Location = new System.Drawing.Point(6, 121);
+            this.chbx_S7_1.Name = "chbx_S7_1";
+            this.chbx_S7_1.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S7_1.TabIndex = 62;
+            this.chbx_S7_1.Text = "chbx_S7_1";
+            this.chbx_S7_1.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S7_2
+            // 
+            this.chbx_S7_2.AutoCheck = false;
+            this.chbx_S7_2.AutoSize = true;
+            this.chbx_S7_2.Location = new System.Drawing.Point(6, 104);
+            this.chbx_S7_2.Name = "chbx_S7_2";
+            this.chbx_S7_2.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S7_2.TabIndex = 61;
+            this.chbx_S7_2.Text = "chbx_S7_2";
+            this.chbx_S7_2.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S7_3
+            // 
+            this.chbx_S7_3.AutoCheck = false;
+            this.chbx_S7_3.AutoSize = true;
+            this.chbx_S7_3.Location = new System.Drawing.Point(6, 87);
+            this.chbx_S7_3.Name = "chbx_S7_3";
+            this.chbx_S7_3.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S7_3.TabIndex = 60;
+            this.chbx_S7_3.Text = "chbx_S7_3";
+            this.chbx_S7_3.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S7_4
+            // 
+            this.chbx_S7_4.AutoCheck = false;
+            this.chbx_S7_4.AutoSize = true;
+            this.chbx_S7_4.Location = new System.Drawing.Point(6, 70);
+            this.chbx_S7_4.Name = "chbx_S7_4";
+            this.chbx_S7_4.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S7_4.TabIndex = 59;
+            this.chbx_S7_4.Text = "chbx_S7_4";
+            this.chbx_S7_4.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S7_5
+            // 
+            this.chbx_S7_5.AutoCheck = false;
+            this.chbx_S7_5.AutoSize = true;
+            this.chbx_S7_5.Location = new System.Drawing.Point(6, 53);
+            this.chbx_S7_5.Name = "chbx_S7_5";
+            this.chbx_S7_5.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S7_5.TabIndex = 58;
+            this.chbx_S7_5.Text = "chbx_S7_5";
+            this.chbx_S7_5.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S7_6
+            // 
+            this.chbx_S7_6.AutoCheck = false;
+            this.chbx_S7_6.AutoSize = true;
+            this.chbx_S7_6.Location = new System.Drawing.Point(6, 36);
+            this.chbx_S7_6.Name = "chbx_S7_6";
+            this.chbx_S7_6.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S7_6.TabIndex = 57;
+            this.chbx_S7_6.Text = "chbx_S7_6";
+            this.chbx_S7_6.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S7_7
+            // 
+            this.chbx_S7_7.AutoCheck = false;
+            this.chbx_S7_7.AutoSize = true;
+            this.chbx_S7_7.Location = new System.Drawing.Point(6, 19);
+            this.chbx_S7_7.Name = "chbx_S7_7";
+            this.chbx_S7_7.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S7_7.TabIndex = 56;
+            this.chbx_S7_7.Text = "chbx_S7_7";
+            this.chbx_S7_7.UseVisualStyleBackColor = true;
+            // 
+            // grbx_StatusByte_6
+            // 
+            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_0);
+            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_1);
+            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_2);
+            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_3);
+            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_4);
+            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_5);
+            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_6);
+            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_7);
+            this.grbx_StatusByte_6.Location = new System.Drawing.Point(3, 985);
+            this.grbx_StatusByte_6.Name = "grbx_StatusByte_6";
+            this.grbx_StatusByte_6.Size = new System.Drawing.Size(329, 160);
+            this.grbx_StatusByte_6.TabIndex = 6;
+            this.grbx_StatusByte_6.TabStop = false;
+            // 
+            // chbx_S6_0
+            // 
+            this.chbx_S6_0.AutoCheck = false;
+            this.chbx_S6_0.AutoSize = true;
+            this.chbx_S6_0.Location = new System.Drawing.Point(6, 138);
+            this.chbx_S6_0.Name = "chbx_S6_0";
+            this.chbx_S6_0.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S6_0.TabIndex = 55;
+            this.chbx_S6_0.Text = "chbx_S6_0";
+            this.chbx_S6_0.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S6_1
+            // 
+            this.chbx_S6_1.AutoCheck = false;
+            this.chbx_S6_1.AutoSize = true;
+            this.chbx_S6_1.Location = new System.Drawing.Point(6, 121);
+            this.chbx_S6_1.Name = "chbx_S6_1";
+            this.chbx_S6_1.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S6_1.TabIndex = 54;
+            this.chbx_S6_1.Text = "chbx_S6_1";
+            this.chbx_S6_1.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S6_2
+            // 
+            this.chbx_S6_2.AutoCheck = false;
+            this.chbx_S6_2.AutoSize = true;
+            this.chbx_S6_2.Location = new System.Drawing.Point(6, 104);
+            this.chbx_S6_2.Name = "chbx_S6_2";
+            this.chbx_S6_2.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S6_2.TabIndex = 53;
+            this.chbx_S6_2.Text = "chbx_S6_2";
+            this.chbx_S6_2.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S6_3
+            // 
+            this.chbx_S6_3.AutoCheck = false;
+            this.chbx_S6_3.AutoSize = true;
+            this.chbx_S6_3.Location = new System.Drawing.Point(6, 87);
+            this.chbx_S6_3.Name = "chbx_S6_3";
+            this.chbx_S6_3.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S6_3.TabIndex = 52;
+            this.chbx_S6_3.Text = "chbx_S6_3";
+            this.chbx_S6_3.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S6_4
+            // 
+            this.chbx_S6_4.AutoCheck = false;
+            this.chbx_S6_4.AutoSize = true;
+            this.chbx_S6_4.Location = new System.Drawing.Point(6, 70);
+            this.chbx_S6_4.Name = "chbx_S6_4";
+            this.chbx_S6_4.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S6_4.TabIndex = 51;
+            this.chbx_S6_4.Text = "chbx_S6_4";
+            this.chbx_S6_4.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S6_5
+            // 
+            this.chbx_S6_5.AutoCheck = false;
+            this.chbx_S6_5.AutoSize = true;
+            this.chbx_S6_5.Location = new System.Drawing.Point(6, 53);
+            this.chbx_S6_5.Name = "chbx_S6_5";
+            this.chbx_S6_5.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S6_5.TabIndex = 50;
+            this.chbx_S6_5.Text = "chbx_S6_5";
+            this.chbx_S6_5.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S6_6
+            // 
+            this.chbx_S6_6.AutoCheck = false;
+            this.chbx_S6_6.AutoSize = true;
+            this.chbx_S6_6.Location = new System.Drawing.Point(6, 36);
+            this.chbx_S6_6.Name = "chbx_S6_6";
+            this.chbx_S6_6.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S6_6.TabIndex = 49;
+            this.chbx_S6_6.Text = "chbx_S6_6";
+            this.chbx_S6_6.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S6_7
+            // 
+            this.chbx_S6_7.AutoCheck = false;
+            this.chbx_S6_7.AutoSize = true;
+            this.chbx_S6_7.Location = new System.Drawing.Point(6, 19);
+            this.chbx_S6_7.Name = "chbx_S6_7";
+            this.chbx_S6_7.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S6_7.TabIndex = 48;
+            this.chbx_S6_7.Text = "chbx_S6_7";
+            this.chbx_S6_7.UseVisualStyleBackColor = true;
+            // 
+            // grbx_StatusByte_5
+            // 
+            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_0);
+            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_1);
+            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_2);
+            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_3);
+            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_4);
+            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_5);
+            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_6);
+            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_7);
+            this.grbx_StatusByte_5.Location = new System.Drawing.Point(3, 819);
+            this.grbx_StatusByte_5.Name = "grbx_StatusByte_5";
+            this.grbx_StatusByte_5.Size = new System.Drawing.Size(329, 160);
+            this.grbx_StatusByte_5.TabIndex = 5;
+            this.grbx_StatusByte_5.TabStop = false;
+            // 
+            // chbx_S5_0
+            // 
+            this.chbx_S5_0.AutoCheck = false;
+            this.chbx_S5_0.AutoSize = true;
+            this.chbx_S5_0.Location = new System.Drawing.Point(6, 135);
+            this.chbx_S5_0.Name = "chbx_S5_0";
+            this.chbx_S5_0.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S5_0.TabIndex = 47;
+            this.chbx_S5_0.Text = "chbx_S5_0";
+            this.chbx_S5_0.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S5_1
+            // 
+            this.chbx_S5_1.AutoCheck = false;
+            this.chbx_S5_1.AutoSize = true;
+            this.chbx_S5_1.Location = new System.Drawing.Point(6, 118);
+            this.chbx_S5_1.Name = "chbx_S5_1";
+            this.chbx_S5_1.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S5_1.TabIndex = 46;
+            this.chbx_S5_1.Text = "chbx_S5_1";
+            this.chbx_S5_1.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S5_2
+            // 
+            this.chbx_S5_2.AutoCheck = false;
+            this.chbx_S5_2.AutoSize = true;
+            this.chbx_S5_2.Location = new System.Drawing.Point(6, 101);
+            this.chbx_S5_2.Name = "chbx_S5_2";
+            this.chbx_S5_2.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S5_2.TabIndex = 45;
+            this.chbx_S5_2.Text = "chbx_S5_2";
+            this.chbx_S5_2.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S5_3
+            // 
+            this.chbx_S5_3.AutoCheck = false;
+            this.chbx_S5_3.AutoSize = true;
+            this.chbx_S5_3.Location = new System.Drawing.Point(6, 84);
+            this.chbx_S5_3.Name = "chbx_S5_3";
+            this.chbx_S5_3.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S5_3.TabIndex = 44;
+            this.chbx_S5_3.Text = "chbx_S5_3";
+            this.chbx_S5_3.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S5_4
+            // 
+            this.chbx_S5_4.AutoCheck = false;
+            this.chbx_S5_4.AutoSize = true;
+            this.chbx_S5_4.Location = new System.Drawing.Point(6, 67);
+            this.chbx_S5_4.Name = "chbx_S5_4";
+            this.chbx_S5_4.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S5_4.TabIndex = 43;
+            this.chbx_S5_4.Text = "chbx_S5_4";
+            this.chbx_S5_4.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S5_5
+            // 
+            this.chbx_S5_5.AutoCheck = false;
+            this.chbx_S5_5.AutoSize = true;
+            this.chbx_S5_5.Location = new System.Drawing.Point(6, 50);
+            this.chbx_S5_5.Name = "chbx_S5_5";
+            this.chbx_S5_5.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S5_5.TabIndex = 42;
+            this.chbx_S5_5.Text = "chbx_S5_5";
+            this.chbx_S5_5.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S5_6
+            // 
+            this.chbx_S5_6.AutoCheck = false;
+            this.chbx_S5_6.AutoSize = true;
+            this.chbx_S5_6.Location = new System.Drawing.Point(6, 33);
+            this.chbx_S5_6.Name = "chbx_S5_6";
+            this.chbx_S5_6.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S5_6.TabIndex = 41;
+            this.chbx_S5_6.Text = "chbx_S5_6";
+            this.chbx_S5_6.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S5_7
+            // 
+            this.chbx_S5_7.AutoCheck = false;
+            this.chbx_S5_7.AutoSize = true;
+            this.chbx_S5_7.Location = new System.Drawing.Point(6, 16);
+            this.chbx_S5_7.Name = "chbx_S5_7";
+            this.chbx_S5_7.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S5_7.TabIndex = 40;
+            this.chbx_S5_7.Text = "chbx_S5_7";
+            this.chbx_S5_7.UseVisualStyleBackColor = true;
+            // 
+            // grbx_StatusByte_4
+            // 
+            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_0);
+            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_1);
+            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_2);
+            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_3);
+            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_4);
+            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_5);
+            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_6);
+            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_7);
+            this.grbx_StatusByte_4.Location = new System.Drawing.Point(3, 657);
+            this.grbx_StatusByte_4.Name = "grbx_StatusByte_4";
+            this.grbx_StatusByte_4.Size = new System.Drawing.Size(329, 160);
+            this.grbx_StatusByte_4.TabIndex = 4;
+            this.grbx_StatusByte_4.TabStop = false;
+            // 
+            // chbx_S4_0
+            // 
+            this.chbx_S4_0.AutoCheck = false;
+            this.chbx_S4_0.AutoSize = true;
+            this.chbx_S4_0.Location = new System.Drawing.Point(6, 134);
+            this.chbx_S4_0.Name = "chbx_S4_0";
+            this.chbx_S4_0.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S4_0.TabIndex = 39;
+            this.chbx_S4_0.Text = "chbx_S4_0";
+            this.chbx_S4_0.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S4_1
+            // 
+            this.chbx_S4_1.AutoCheck = false;
+            this.chbx_S4_1.AutoSize = true;
+            this.chbx_S4_1.Location = new System.Drawing.Point(6, 117);
+            this.chbx_S4_1.Name = "chbx_S4_1";
+            this.chbx_S4_1.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S4_1.TabIndex = 38;
+            this.chbx_S4_1.Text = "chbx_S4_1";
+            this.chbx_S4_1.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S4_2
+            // 
+            this.chbx_S4_2.AutoCheck = false;
+            this.chbx_S4_2.AutoSize = true;
+            this.chbx_S4_2.Location = new System.Drawing.Point(6, 100);
+            this.chbx_S4_2.Name = "chbx_S4_2";
+            this.chbx_S4_2.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S4_2.TabIndex = 37;
+            this.chbx_S4_2.Text = "chbx_S4_2";
+            this.chbx_S4_2.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S4_3
+            // 
+            this.chbx_S4_3.AutoCheck = false;
+            this.chbx_S4_3.AutoSize = true;
+            this.chbx_S4_3.Location = new System.Drawing.Point(6, 83);
+            this.chbx_S4_3.Name = "chbx_S4_3";
+            this.chbx_S4_3.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S4_3.TabIndex = 36;
+            this.chbx_S4_3.Text = "chbx_S4_3";
+            this.chbx_S4_3.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S4_4
+            // 
+            this.chbx_S4_4.AutoCheck = false;
+            this.chbx_S4_4.AutoSize = true;
+            this.chbx_S4_4.Location = new System.Drawing.Point(6, 66);
+            this.chbx_S4_4.Name = "chbx_S4_4";
+            this.chbx_S4_4.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S4_4.TabIndex = 35;
+            this.chbx_S4_4.Text = "chbx_S4_4";
+            this.chbx_S4_4.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S4_5
+            // 
+            this.chbx_S4_5.AutoCheck = false;
+            this.chbx_S4_5.AutoSize = true;
+            this.chbx_S4_5.Location = new System.Drawing.Point(6, 49);
+            this.chbx_S4_5.Name = "chbx_S4_5";
+            this.chbx_S4_5.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S4_5.TabIndex = 34;
+            this.chbx_S4_5.Text = "chbx_S4_5";
+            this.chbx_S4_5.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S4_6
+            // 
+            this.chbx_S4_6.AutoCheck = false;
+            this.chbx_S4_6.AutoSize = true;
+            this.chbx_S4_6.Location = new System.Drawing.Point(6, 32);
+            this.chbx_S4_6.Name = "chbx_S4_6";
+            this.chbx_S4_6.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S4_6.TabIndex = 33;
+            this.chbx_S4_6.Text = "chbx_S4_6";
+            this.chbx_S4_6.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S4_7
+            // 
+            this.chbx_S4_7.AutoCheck = false;
+            this.chbx_S4_7.AutoSize = true;
+            this.chbx_S4_7.Location = new System.Drawing.Point(6, 15);
+            this.chbx_S4_7.Name = "chbx_S4_7";
+            this.chbx_S4_7.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S4_7.TabIndex = 32;
+            this.chbx_S4_7.Text = "chbx_S4_7";
+            this.chbx_S4_7.UseVisualStyleBackColor = true;
+            // 
+            // grbx_StatusByte_3
+            // 
+            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_0);
+            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_1);
+            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_2);
+            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_3);
+            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_4);
+            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_5);
+            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_6);
+            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_7);
+            this.grbx_StatusByte_3.Location = new System.Drawing.Point(3, 496);
+            this.grbx_StatusByte_3.Name = "grbx_StatusByte_3";
+            this.grbx_StatusByte_3.Size = new System.Drawing.Size(329, 160);
+            this.grbx_StatusByte_3.TabIndex = 3;
+            this.grbx_StatusByte_3.TabStop = false;
+            // 
+            // chbx_S3_0
+            // 
+            this.chbx_S3_0.AutoCheck = false;
+            this.chbx_S3_0.AutoSize = true;
+            this.chbx_S3_0.Location = new System.Drawing.Point(6, 132);
+            this.chbx_S3_0.Name = "chbx_S3_0";
+            this.chbx_S3_0.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S3_0.TabIndex = 31;
+            this.chbx_S3_0.Text = "chbx_S3_0";
+            this.chbx_S3_0.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S3_1
+            // 
+            this.chbx_S3_1.AutoCheck = false;
+            this.chbx_S3_1.AutoSize = true;
+            this.chbx_S3_1.Location = new System.Drawing.Point(6, 115);
+            this.chbx_S3_1.Name = "chbx_S3_1";
+            this.chbx_S3_1.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S3_1.TabIndex = 30;
+            this.chbx_S3_1.Text = "chbx_S3_1";
+            this.chbx_S3_1.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S3_2
+            // 
+            this.chbx_S3_2.AutoCheck = false;
+            this.chbx_S3_2.AutoSize = true;
+            this.chbx_S3_2.Location = new System.Drawing.Point(6, 98);
+            this.chbx_S3_2.Name = "chbx_S3_2";
+            this.chbx_S3_2.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S3_2.TabIndex = 29;
+            this.chbx_S3_2.Text = "chbx_S3_2";
+            this.chbx_S3_2.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S3_3
+            // 
+            this.chbx_S3_3.AutoCheck = false;
+            this.chbx_S3_3.AutoSize = true;
+            this.chbx_S3_3.Location = new System.Drawing.Point(6, 81);
+            this.chbx_S3_3.Name = "chbx_S3_3";
+            this.chbx_S3_3.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S3_3.TabIndex = 28;
+            this.chbx_S3_3.Text = "chbx_S3_3";
+            this.chbx_S3_3.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S3_4
+            // 
+            this.chbx_S3_4.AutoCheck = false;
+            this.chbx_S3_4.AutoSize = true;
+            this.chbx_S3_4.Location = new System.Drawing.Point(6, 64);
+            this.chbx_S3_4.Name = "chbx_S3_4";
+            this.chbx_S3_4.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S3_4.TabIndex = 27;
+            this.chbx_S3_4.Text = "chbx_S3_4";
+            this.chbx_S3_4.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S3_5
+            // 
+            this.chbx_S3_5.AutoCheck = false;
+            this.chbx_S3_5.AutoSize = true;
+            this.chbx_S3_5.Location = new System.Drawing.Point(6, 47);
+            this.chbx_S3_5.Name = "chbx_S3_5";
+            this.chbx_S3_5.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S3_5.TabIndex = 26;
+            this.chbx_S3_5.Text = "chbx_S3_5";
+            this.chbx_S3_5.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S3_6
+            // 
+            this.chbx_S3_6.AutoCheck = false;
+            this.chbx_S3_6.AutoSize = true;
+            this.chbx_S3_6.Location = new System.Drawing.Point(6, 30);
+            this.chbx_S3_6.Name = "chbx_S3_6";
+            this.chbx_S3_6.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S3_6.TabIndex = 25;
+            this.chbx_S3_6.Text = "chbx_S3_6";
+            this.chbx_S3_6.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S3_7
+            // 
+            this.chbx_S3_7.AutoCheck = false;
+            this.chbx_S3_7.AutoSize = true;
+            this.chbx_S3_7.Location = new System.Drawing.Point(6, 13);
+            this.chbx_S3_7.Name = "chbx_S3_7";
+            this.chbx_S3_7.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S3_7.TabIndex = 24;
+            this.chbx_S3_7.Text = "chbx_S3_7";
+            this.chbx_S3_7.UseVisualStyleBackColor = true;
+            // 
+            // grbx_StatusByte_2
+            // 
+            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_0);
+            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_1);
+            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_2);
+            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_3);
+            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_4);
+            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_5);
+            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_6);
+            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_7);
+            this.grbx_StatusByte_2.Location = new System.Drawing.Point(3, 340);
+            this.grbx_StatusByte_2.Name = "grbx_StatusByte_2";
+            this.grbx_StatusByte_2.Size = new System.Drawing.Size(329, 160);
+            this.grbx_StatusByte_2.TabIndex = 2;
+            this.grbx_StatusByte_2.TabStop = false;
+            // 
+            // chbx_S2_0
+            // 
+            this.chbx_S2_0.AutoCheck = false;
+            this.chbx_S2_0.AutoSize = true;
+            this.chbx_S2_0.Location = new System.Drawing.Point(6, 133);
+            this.chbx_S2_0.Name = "chbx_S2_0";
+            this.chbx_S2_0.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S2_0.TabIndex = 23;
+            this.chbx_S2_0.Text = "chbx_S2_0";
+            this.chbx_S2_0.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S2_1
+            // 
+            this.chbx_S2_1.AutoCheck = false;
+            this.chbx_S2_1.AutoSize = true;
+            this.chbx_S2_1.Location = new System.Drawing.Point(6, 116);
+            this.chbx_S2_1.Name = "chbx_S2_1";
+            this.chbx_S2_1.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S2_1.TabIndex = 22;
+            this.chbx_S2_1.Text = "chbx_S2_1";
+            this.chbx_S2_1.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S2_2
+            // 
+            this.chbx_S2_2.AutoCheck = false;
+            this.chbx_S2_2.AutoSize = true;
+            this.chbx_S2_2.Location = new System.Drawing.Point(6, 99);
+            this.chbx_S2_2.Name = "chbx_S2_2";
+            this.chbx_S2_2.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S2_2.TabIndex = 21;
+            this.chbx_S2_2.Text = "chbx_S2_2";
+            this.chbx_S2_2.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S2_3
+            // 
+            this.chbx_S2_3.AutoCheck = false;
+            this.chbx_S2_3.AutoSize = true;
+            this.chbx_S2_3.Location = new System.Drawing.Point(6, 82);
+            this.chbx_S2_3.Name = "chbx_S2_3";
+            this.chbx_S2_3.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S2_3.TabIndex = 20;
+            this.chbx_S2_3.Text = "chbx_S2_3";
+            this.chbx_S2_3.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S2_4
+            // 
+            this.chbx_S2_4.AutoCheck = false;
+            this.chbx_S2_4.AutoSize = true;
+            this.chbx_S2_4.Location = new System.Drawing.Point(6, 65);
+            this.chbx_S2_4.Name = "chbx_S2_4";
+            this.chbx_S2_4.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S2_4.TabIndex = 19;
+            this.chbx_S2_4.Text = "chbx_S2_4";
+            this.chbx_S2_4.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S2_5
+            // 
+            this.chbx_S2_5.AutoCheck = false;
+            this.chbx_S2_5.AutoSize = true;
+            this.chbx_S2_5.Location = new System.Drawing.Point(6, 48);
+            this.chbx_S2_5.Name = "chbx_S2_5";
+            this.chbx_S2_5.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S2_5.TabIndex = 18;
+            this.chbx_S2_5.Text = "chbx_S2_5";
+            this.chbx_S2_5.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S2_6
+            // 
+            this.chbx_S2_6.AutoCheck = false;
+            this.chbx_S2_6.AutoSize = true;
+            this.chbx_S2_6.Location = new System.Drawing.Point(6, 31);
+            this.chbx_S2_6.Name = "chbx_S2_6";
+            this.chbx_S2_6.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S2_6.TabIndex = 17;
+            this.chbx_S2_6.Text = "chbx_S2_6";
+            this.chbx_S2_6.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S2_7
+            // 
+            this.chbx_S2_7.AutoCheck = false;
+            this.chbx_S2_7.AutoSize = true;
+            this.chbx_S2_7.Location = new System.Drawing.Point(6, 14);
+            this.chbx_S2_7.Name = "chbx_S2_7";
+            this.chbx_S2_7.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S2_7.TabIndex = 16;
+            this.chbx_S2_7.Text = "chbx_S2_7";
+            this.chbx_S2_7.UseVisualStyleBackColor = true;
+            // 
+            // grbx_StatusByte_1
+            // 
+            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_0);
+            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_1);
+            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_2);
+            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_3);
+            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_4);
+            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_5);
+            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_6);
+            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_7);
+            this.grbx_StatusByte_1.Location = new System.Drawing.Point(3, 166);
+            this.grbx_StatusByte_1.Name = "grbx_StatusByte_1";
+            this.grbx_StatusByte_1.Size = new System.Drawing.Size(329, 160);
+            this.grbx_StatusByte_1.TabIndex = 1;
+            this.grbx_StatusByte_1.TabStop = false;
+            // 
+            // chbx_S1_0
+            // 
+            this.chbx_S1_0.AutoCheck = false;
+            this.chbx_S1_0.AutoSize = true;
+            this.chbx_S1_0.Location = new System.Drawing.Point(6, 136);
+            this.chbx_S1_0.Name = "chbx_S1_0";
+            this.chbx_S1_0.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S1_0.TabIndex = 15;
+            this.chbx_S1_0.Text = "chbx_S1_0";
+            this.chbx_S1_0.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S1_1
+            // 
+            this.chbx_S1_1.AutoCheck = false;
+            this.chbx_S1_1.AutoSize = true;
+            this.chbx_S1_1.Location = new System.Drawing.Point(6, 119);
+            this.chbx_S1_1.Name = "chbx_S1_1";
+            this.chbx_S1_1.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S1_1.TabIndex = 14;
+            this.chbx_S1_1.Text = "chbx_S1_1";
+            this.chbx_S1_1.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S1_2
+            // 
+            this.chbx_S1_2.AutoCheck = false;
+            this.chbx_S1_2.AutoSize = true;
+            this.chbx_S1_2.Location = new System.Drawing.Point(6, 102);
+            this.chbx_S1_2.Name = "chbx_S1_2";
+            this.chbx_S1_2.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S1_2.TabIndex = 13;
+            this.chbx_S1_2.Text = "chbx_S1_2";
+            this.chbx_S1_2.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S1_3
+            // 
+            this.chbx_S1_3.AutoCheck = false;
+            this.chbx_S1_3.AutoSize = true;
+            this.chbx_S1_3.Location = new System.Drawing.Point(6, 85);
+            this.chbx_S1_3.Name = "chbx_S1_3";
+            this.chbx_S1_3.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S1_3.TabIndex = 12;
+            this.chbx_S1_3.Text = "chbx_S1_3";
+            this.chbx_S1_3.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S1_4
+            // 
+            this.chbx_S1_4.AutoCheck = false;
+            this.chbx_S1_4.AutoSize = true;
+            this.chbx_S1_4.Location = new System.Drawing.Point(6, 68);
+            this.chbx_S1_4.Name = "chbx_S1_4";
+            this.chbx_S1_4.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S1_4.TabIndex = 11;
+            this.chbx_S1_4.Text = "chbx_S1_4";
+            this.chbx_S1_4.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S1_5
+            // 
+            this.chbx_S1_5.AutoCheck = false;
+            this.chbx_S1_5.AutoSize = true;
+            this.chbx_S1_5.Location = new System.Drawing.Point(6, 51);
+            this.chbx_S1_5.Name = "chbx_S1_5";
+            this.chbx_S1_5.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S1_5.TabIndex = 10;
+            this.chbx_S1_5.Text = "chbx_S1_5";
+            this.chbx_S1_5.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S1_6
+            // 
+            this.chbx_S1_6.AutoCheck = false;
+            this.chbx_S1_6.AutoSize = true;
+            this.chbx_S1_6.Location = new System.Drawing.Point(6, 34);
+            this.chbx_S1_6.Name = "chbx_S1_6";
+            this.chbx_S1_6.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S1_6.TabIndex = 9;
+            this.chbx_S1_6.Text = "chbx_S1_6";
+            this.chbx_S1_6.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S1_7
+            // 
+            this.chbx_S1_7.AutoCheck = false;
+            this.chbx_S1_7.AutoSize = true;
+            this.chbx_S1_7.Location = new System.Drawing.Point(6, 17);
+            this.chbx_S1_7.Name = "chbx_S1_7";
+            this.chbx_S1_7.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S1_7.TabIndex = 8;
+            this.chbx_S1_7.Text = "chbx_S1_7";
+            this.chbx_S1_7.UseVisualStyleBackColor = true;
+            // 
+            // grbx_StatusByte_0
+            // 
+            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_0);
+            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_1);
+            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_2);
+            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_3);
+            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_4);
+            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_5);
+            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_6);
+            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_7);
+            this.grbx_StatusByte_0.Location = new System.Drawing.Point(3, 0);
+            this.grbx_StatusByte_0.Name = "grbx_StatusByte_0";
+            this.grbx_StatusByte_0.Size = new System.Drawing.Size(329, 160);
+            this.grbx_StatusByte_0.TabIndex = 0;
+            this.grbx_StatusByte_0.TabStop = false;
+            // 
+            // chbx_S0_0
+            // 
+            this.chbx_S0_0.AutoCheck = false;
+            this.chbx_S0_0.AutoSize = true;
+            this.chbx_S0_0.Location = new System.Drawing.Point(6, 131);
+            this.chbx_S0_0.Name = "chbx_S0_0";
+            this.chbx_S0_0.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S0_0.TabIndex = 7;
+            this.chbx_S0_0.Text = "chbx_S0_0";
+            this.chbx_S0_0.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S0_1
+            // 
+            this.chbx_S0_1.AutoCheck = false;
+            this.chbx_S0_1.AutoSize = true;
+            this.chbx_S0_1.Location = new System.Drawing.Point(6, 114);
+            this.chbx_S0_1.Name = "chbx_S0_1";
+            this.chbx_S0_1.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S0_1.TabIndex = 6;
+            this.chbx_S0_1.Text = "chbx_S0_1";
+            this.chbx_S0_1.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S0_2
+            // 
+            this.chbx_S0_2.AutoCheck = false;
+            this.chbx_S0_2.AutoSize = true;
+            this.chbx_S0_2.Location = new System.Drawing.Point(6, 97);
+            this.chbx_S0_2.Name = "chbx_S0_2";
+            this.chbx_S0_2.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S0_2.TabIndex = 5;
+            this.chbx_S0_2.Text = "chbx_S0_2";
+            this.chbx_S0_2.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S0_3
+            // 
+            this.chbx_S0_3.AutoCheck = false;
+            this.chbx_S0_3.AutoSize = true;
+            this.chbx_S0_3.Location = new System.Drawing.Point(6, 80);
+            this.chbx_S0_3.Name = "chbx_S0_3";
+            this.chbx_S0_3.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S0_3.TabIndex = 4;
+            this.chbx_S0_3.Text = "chbx_S0_3";
+            this.chbx_S0_3.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S0_4
+            // 
+            this.chbx_S0_4.AutoCheck = false;
+            this.chbx_S0_4.AutoSize = true;
+            this.chbx_S0_4.Location = new System.Drawing.Point(6, 63);
+            this.chbx_S0_4.Name = "chbx_S0_4";
+            this.chbx_S0_4.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S0_4.TabIndex = 3;
+            this.chbx_S0_4.Text = "chbx_S0_4";
+            this.chbx_S0_4.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S0_5
+            // 
+            this.chbx_S0_5.AutoCheck = false;
+            this.chbx_S0_5.AutoSize = true;
+            this.chbx_S0_5.Location = new System.Drawing.Point(6, 46);
+            this.chbx_S0_5.Name = "chbx_S0_5";
+            this.chbx_S0_5.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S0_5.TabIndex = 2;
+            this.chbx_S0_5.Text = "chbx_S0_5";
+            this.chbx_S0_5.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S0_6
+            // 
+            this.chbx_S0_6.AutoCheck = false;
+            this.chbx_S0_6.AutoSize = true;
+            this.chbx_S0_6.Location = new System.Drawing.Point(6, 29);
+            this.chbx_S0_6.Name = "chbx_S0_6";
+            this.chbx_S0_6.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S0_6.TabIndex = 1;
+            this.chbx_S0_6.Text = "chbx_S0_6";
+            this.chbx_S0_6.UseVisualStyleBackColor = true;
+            // 
+            // chbx_S0_7
+            // 
+            this.chbx_S0_7.AutoCheck = false;
+            this.chbx_S0_7.AutoSize = true;
+            this.chbx_S0_7.Location = new System.Drawing.Point(6, 12);
+            this.chbx_S0_7.Name = "chbx_S0_7";
+            this.chbx_S0_7.Size = new System.Drawing.Size(88, 19);
+            this.chbx_S0_7.TabIndex = 0;
+            this.chbx_S0_7.Text = "chbx_S0_7";
+            this.chbx_S0_7.UseVisualStyleBackColor = true;
             // 
             // pnl_Progress
             // 
@@ -312,9 +1169,9 @@
             this.pnl_Progress.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnl_Progress.Controls.Add(this.pb_2);
             this.pnl_Progress.Controls.Add(this.pb_1);
-            this.pnl_Progress.Location = new System.Drawing.Point(6, 566);
+            this.pnl_Progress.Location = new System.Drawing.Point(6, 559);
             this.pnl_Progress.Name = "pnl_Progress";
-            this.pnl_Progress.Size = new System.Drawing.Size(687, 63);
+            this.pnl_Progress.Size = new System.Drawing.Size(958, 63);
             this.pnl_Progress.TabIndex = 9;
             // 
             // pb_2
@@ -323,7 +1180,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_2.Location = new System.Drawing.Point(4, 34);
             this.pb_2.Name = "pb_2";
-            this.pb_2.Size = new System.Drawing.Size(672, 18);
+            this.pb_2.Size = new System.Drawing.Size(943, 18);
             this.pb_2.TabIndex = 1;
             // 
             // pb_1
@@ -332,7 +1189,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_1.Location = new System.Drawing.Point(4, 10);
             this.pb_1.Name = "pb_1";
-            this.pb_1.Size = new System.Drawing.Size(672, 18);
+            this.pb_1.Size = new System.Drawing.Size(943, 18);
             this.pb_1.TabIndex = 0;
             // 
             // pnl_Errors
@@ -343,9 +1200,10 @@
             this.pnl_Errors.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_Errors.Controls.Add(this.lbx_Errors);
             this.pnl_Errors.Controls.Add(this.lb_Errors);
-            this.pnl_Errors.Location = new System.Drawing.Point(6, 456);
+            this.pnl_Errors.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnl_Errors.Location = new System.Drawing.Point(6, 449);
             this.pnl_Errors.Name = "pnl_Errors";
-            this.pnl_Errors.Size = new System.Drawing.Size(687, 104);
+            this.pnl_Errors.Size = new System.Drawing.Size(958, 104);
             this.pnl_Errors.TabIndex = 8;
             // 
             // lbx_Errors
@@ -358,7 +1216,7 @@
             this.lbx_Errors.Location = new System.Drawing.Point(3, 20);
             this.lbx_Errors.Name = "lbx_Errors";
             this.lbx_Errors.ScrollAlwaysVisible = true;
-            this.lbx_Errors.Size = new System.Drawing.Size(682, 82);
+            this.lbx_Errors.Size = new System.Drawing.Size(953, 82);
             this.lbx_Errors.TabIndex = 1;
             // 
             // lb_Errors
@@ -383,10 +1241,11 @@
             this.tc_Main.Controls.Add(this.tp_CustomScript);
             this.tc_Main.Controls.Add(this.tp_ANAF);
             this.tc_Main.Controls.Add(this.tp_GetCommandList);
+            this.tc_Main.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tc_Main.Location = new System.Drawing.Point(6, 6);
             this.tc_Main.Name = "tc_Main";
             this.tc_Main.SelectedIndex = 0;
-            this.tc_Main.Size = new System.Drawing.Size(686, 444);
+            this.tc_Main.Size = new System.Drawing.Size(673, 437);
             this.tc_Main.TabIndex = 4;
             // 
             // tp_InitConnect
@@ -395,10 +1254,11 @@
             this.tp_InitConnect.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.tp_InitConnect.Controls.Add(this.pnl_Settings);
             this.tp_InitConnect.Controls.Add(this.btn_StartComServer);
-            this.tp_InitConnect.Location = new System.Drawing.Point(4, 22);
+            this.tp_InitConnect.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tp_InitConnect.Location = new System.Drawing.Point(4, 25);
             this.tp_InitConnect.Name = "tp_InitConnect";
             this.tp_InitConnect.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_InitConnect.Size = new System.Drawing.Size(675, 619);
+            this.tp_InitConnect.Size = new System.Drawing.Size(665, 408);
             this.tp_InitConnect.TabIndex = 0;
             this.tp_InitConnect.Text = "Initialisation and connection";
             // 
@@ -569,10 +1429,11 @@
             this.tp_Properties.Controls.Add(this.lb_LANConnected);
             this.tp_Properties.Controls.Add(this.lb_DeviceConnected);
             this.tp_Properties.Controls.Add(this.lb_DriverLanguage);
-            this.tp_Properties.Location = new System.Drawing.Point(4, 22);
+            this.tp_Properties.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tp_Properties.Location = new System.Drawing.Point(4, 25);
             this.tp_Properties.Name = "tp_Properties";
             this.tp_Properties.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_Properties.Size = new System.Drawing.Size(675, 619);
+            this.tp_Properties.Size = new System.Drawing.Size(665, 408);
             this.tp_Properties.TabIndex = 6;
             this.tp_Properties.Text = "Properties";
             this.tp_Properties.UseVisualStyleBackColor = true;
@@ -792,10 +1653,11 @@
             this.tp_Behaviour.Controls.Add(this.grbx_TrackingMode);
             this.tp_Behaviour.Controls.Add(this.grbx_Language);
             this.tp_Behaviour.Controls.Add(this.grbx_Events);
-            this.tp_Behaviour.Location = new System.Drawing.Point(4, 22);
+            this.tp_Behaviour.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tp_Behaviour.Location = new System.Drawing.Point(4, 25);
             this.tp_Behaviour.Name = "tp_Behaviour";
             this.tp_Behaviour.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_Behaviour.Size = new System.Drawing.Size(675, 644);
+            this.tp_Behaviour.Size = new System.Drawing.Size(665, 408);
             this.tp_Behaviour.TabIndex = 7;
             this.tp_Behaviour.Text = "Behaviour";
             this.tp_Behaviour.UseVisualStyleBackColor = true;
@@ -1097,10 +1959,11 @@
             this.tp_SystemInfo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.tp_SystemInfo.Controls.Add(this.lbx_SystemInfo);
             this.tp_SystemInfo.Controls.Add(this.btn_GetSystemInfo);
-            this.tp_SystemInfo.Location = new System.Drawing.Point(4, 22);
+            this.tp_SystemInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tp_SystemInfo.Location = new System.Drawing.Point(4, 25);
             this.tp_SystemInfo.Name = "tp_SystemInfo";
             this.tp_SystemInfo.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_SystemInfo.Size = new System.Drawing.Size(675, 644);
+            this.tp_SystemInfo.Size = new System.Drawing.Size(665, 408);
             this.tp_SystemInfo.TabIndex = 2;
             this.tp_SystemInfo.Text = "COMServer - system info";
             this.tp_SystemInfo.UseVisualStyleBackColor = true;
@@ -1117,7 +1980,7 @@
             this.lbx_SystemInfo.Location = new System.Drawing.Point(6, 36);
             this.lbx_SystemInfo.Name = "lbx_SystemInfo";
             this.lbx_SystemInfo.ScrollAlwaysVisible = true;
-            this.lbx_SystemInfo.Size = new System.Drawing.Size(797, 589);
+            this.lbx_SystemInfo.Size = new System.Drawing.Size(649, 349);
             this.lbx_SystemInfo.TabIndex = 1;
             // 
             // btn_GetSystemInfo
@@ -1143,10 +2006,11 @@
             this.tp_CustomCmds.Controls.Add(this.lb_InputValue);
             this.tp_CustomCmds.Controls.Add(this.tbx_Cmd);
             this.tp_CustomCmds.Controls.Add(this.lb_Cmd);
-            this.tp_CustomCmds.Location = new System.Drawing.Point(4, 22);
+            this.tp_CustomCmds.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tp_CustomCmds.Location = new System.Drawing.Point(4, 25);
             this.tp_CustomCmds.Name = "tp_CustomCmds";
             this.tp_CustomCmds.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_CustomCmds.Size = new System.Drawing.Size(675, 644);
+            this.tp_CustomCmds.Size = new System.Drawing.Size(665, 408);
             this.tp_CustomCmds.TabIndex = 1;
             this.tp_CustomCmds.Text = "Custom commands";
             this.tp_CustomCmds.UseVisualStyleBackColor = true;
@@ -1171,7 +2035,7 @@
             this.lbx_ScriptOutput.Location = new System.Drawing.Point(77, 101);
             this.lbx_ScriptOutput.Name = "lbx_ScriptOutput";
             this.lbx_ScriptOutput.ScrollAlwaysVisible = true;
-            this.lbx_ScriptOutput.Size = new System.Drawing.Size(710, 524);
+            this.lbx_ScriptOutput.Size = new System.Drawing.Size(700, 277);
             this.lbx_ScriptOutput.TabIndex = 14;
             // 
             // lb_ScriptOutput
@@ -1249,10 +2113,11 @@
             this.tp_CustomScript.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.tp_CustomScript.Controls.Add(this.panel1);
             this.tp_CustomScript.Controls.Add(this.tc_ScriptContainer);
-            this.tp_CustomScript.Location = new System.Drawing.Point(4, 22);
+            this.tp_CustomScript.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tp_CustomScript.Location = new System.Drawing.Point(4, 25);
             this.tp_CustomScript.Name = "tp_CustomScript";
             this.tp_CustomScript.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_CustomScript.Size = new System.Drawing.Size(675, 619);
+            this.tp_CustomScript.Size = new System.Drawing.Size(665, 408);
             this.tp_CustomScript.TabIndex = 5;
             this.tp_CustomScript.Text = "Custom script";
             this.tp_CustomScript.UseVisualStyleBackColor = true;
@@ -1272,7 +2137,7 @@
             this.panel1.Controls.Add(this.btn_LoadScriptFromFile);
             this.panel1.Location = new System.Drawing.Point(6, 368);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(659, 241);
+            this.panel1.Size = new System.Drawing.Size(649, 30);
             this.panel1.TabIndex = 1;
             // 
             // chbx_ShowLastOutput
@@ -1370,7 +2235,7 @@
             this.tc_ScriptContainer.Location = new System.Drawing.Point(8, 8);
             this.tc_ScriptContainer.Name = "tc_ScriptContainer";
             this.tc_ScriptContainer.SelectedIndex = 0;
-            this.tc_ScriptContainer.Size = new System.Drawing.Size(657, 512);
+            this.tc_ScriptContainer.Size = new System.Drawing.Size(647, 301);
             this.tc_ScriptContainer.TabIndex = 0;
             // 
             // tp_SimpleScript
@@ -1379,7 +2244,7 @@
             this.tp_SimpleScript.Location = new System.Drawing.Point(4, 22);
             this.tp_SimpleScript.Name = "tp_SimpleScript";
             this.tp_SimpleScript.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_SimpleScript.Size = new System.Drawing.Size(649, 486);
+            this.tp_SimpleScript.Size = new System.Drawing.Size(639, 275);
             this.tp_SimpleScript.TabIndex = 0;
             this.tp_SimpleScript.Text = "Simple script";
             this.tp_SimpleScript.UseVisualStyleBackColor = true;
@@ -1391,7 +2256,7 @@
             this.rtbx_SimpleScript.HideSelection = false;
             this.rtbx_SimpleScript.Location = new System.Drawing.Point(3, 3);
             this.rtbx_SimpleScript.Name = "rtbx_SimpleScript";
-            this.rtbx_SimpleScript.Size = new System.Drawing.Size(643, 480);
+            this.rtbx_SimpleScript.Size = new System.Drawing.Size(633, 269);
             this.rtbx_SimpleScript.TabIndex = 0;
             this.rtbx_SimpleScript.Text = "48,1\\t0001\\t1\\t\\t\\t\n49,Oranges\\t2\\t0.01\\t2.543\\t2\\t22.25\\t0\\tkg\\t\n53,0\\t\\t\n56";
             this.rtbx_SimpleScript.WordWrap = false;
@@ -1402,7 +2267,7 @@
             this.tp_HumanLog.Location = new System.Drawing.Point(4, 22);
             this.tp_HumanLog.Name = "tp_HumanLog";
             this.tp_HumanLog.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_HumanLog.Size = new System.Drawing.Size(586, 314);
+            this.tp_HumanLog.Size = new System.Drawing.Size(639, 285);
             this.tp_HumanLog.TabIndex = 1;
             this.tp_HumanLog.Text = "Human oriented log";
             this.tp_HumanLog.UseVisualStyleBackColor = true;
@@ -1413,7 +2278,7 @@
             this.rtbx_HumanLog.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rtbx_HumanLog.Location = new System.Drawing.Point(3, 3);
             this.rtbx_HumanLog.Name = "rtbx_HumanLog";
-            this.rtbx_HumanLog.Size = new System.Drawing.Size(580, 308);
+            this.rtbx_HumanLog.Size = new System.Drawing.Size(633, 279);
             this.rtbx_HumanLog.TabIndex = 0;
             this.rtbx_HumanLog.Text = "";
             this.rtbx_HumanLog.WordWrap = false;
@@ -1424,7 +2289,7 @@
             this.tp_HEX.Location = new System.Drawing.Point(4, 22);
             this.tp_HEX.Name = "tp_HEX";
             this.tp_HEX.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_HEX.Size = new System.Drawing.Size(586, 314);
+            this.tp_HEX.Size = new System.Drawing.Size(639, 285);
             this.tp_HEX.TabIndex = 2;
             this.tp_HEX.Text = "HEX log";
             this.tp_HEX.UseVisualStyleBackColor = true;
@@ -1435,7 +2300,7 @@
             this.rtbx_HEXLog.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rtbx_HEXLog.Location = new System.Drawing.Point(3, 3);
             this.rtbx_HEXLog.Name = "rtbx_HEXLog";
-            this.rtbx_HEXLog.Size = new System.Drawing.Size(580, 308);
+            this.rtbx_HEXLog.Size = new System.Drawing.Size(633, 279);
             this.rtbx_HEXLog.TabIndex = 0;
             this.rtbx_HEXLog.Text = "";
             this.rtbx_HEXLog.WordWrap = false;
@@ -1460,10 +2325,10 @@
             this.tp_ANAF.Controls.Add(this.lb_EndDate);
             this.tp_ANAF.Controls.Add(this.lb_StartDate);
             this.tp_ANAF.Controls.Add(this.lb_RangeType);
-            this.tp_ANAF.Location = new System.Drawing.Point(4, 22);
+            this.tp_ANAF.Location = new System.Drawing.Point(4, 25);
             this.tp_ANAF.Name = "tp_ANAF";
             this.tp_ANAF.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_ANAF.Size = new System.Drawing.Size(678, 418);
+            this.tp_ANAF.Size = new System.Drawing.Size(665, 408);
             this.tp_ANAF.TabIndex = 3;
             this.tp_ANAF.Text = "Download and Upload";
             this.tp_ANAF.UseVisualStyleBackColor = true;
@@ -1473,7 +2338,7 @@
             this.tbx_EndZNum.Location = new System.Drawing.Point(78, 140);
             this.tbx_EndZNum.MaxLength = 4;
             this.tbx_EndZNum.Name = "tbx_EndZNum";
-            this.tbx_EndZNum.Size = new System.Drawing.Size(121, 20);
+            this.tbx_EndZNum.Size = new System.Drawing.Size(121, 22);
             this.tbx_EndZNum.TabIndex = 16;
             this.tbx_EndZNum.Text = "2";
             // 
@@ -1482,7 +2347,7 @@
             this.tbx_StartZNum.Location = new System.Drawing.Point(78, 114);
             this.tbx_StartZNum.MaxLength = 4;
             this.tbx_StartZNum.Name = "tbx_StartZNum";
-            this.tbx_StartZNum.Size = new System.Drawing.Size(121, 20);
+            this.tbx_StartZNum.Size = new System.Drawing.Size(121, 22);
             this.tbx_StartZNum.TabIndex = 15;
             this.tbx_StartZNum.Text = "1";
             // 
@@ -1492,7 +2357,7 @@
             this.dtp_EndTime.Location = new System.Drawing.Point(205, 62);
             this.dtp_EndTime.Name = "dtp_EndTime";
             this.dtp_EndTime.ShowUpDown = true;
-            this.dtp_EndTime.Size = new System.Drawing.Size(74, 20);
+            this.dtp_EndTime.Size = new System.Drawing.Size(74, 22);
             this.dtp_EndTime.TabIndex = 14;
             // 
             // dtp_EndDate
@@ -1500,7 +2365,7 @@
             this.dtp_EndDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtp_EndDate.Location = new System.Drawing.Point(78, 62);
             this.dtp_EndDate.Name = "dtp_EndDate";
-            this.dtp_EndDate.Size = new System.Drawing.Size(121, 20);
+            this.dtp_EndDate.Size = new System.Drawing.Size(121, 22);
             this.dtp_EndDate.TabIndex = 13;
             // 
             // dtp_StartTime
@@ -1509,7 +2374,7 @@
             this.dtp_StartTime.Location = new System.Drawing.Point(205, 36);
             this.dtp_StartTime.Name = "dtp_StartTime";
             this.dtp_StartTime.ShowUpDown = true;
-            this.dtp_StartTime.Size = new System.Drawing.Size(74, 20);
+            this.dtp_StartTime.Size = new System.Drawing.Size(74, 22);
             this.dtp_StartTime.TabIndex = 12;
             // 
             // dtp_StartDate
@@ -1517,7 +2382,7 @@
             this.dtp_StartDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtp_StartDate.Location = new System.Drawing.Point(78, 36);
             this.dtp_StartDate.Name = "dtp_StartDate";
-            this.dtp_StartDate.Size = new System.Drawing.Size(121, 20);
+            this.dtp_StartDate.Size = new System.Drawing.Size(121, 22);
             this.dtp_StartDate.TabIndex = 11;
             // 
             // chbx_DST
@@ -1525,7 +2390,7 @@
             this.chbx_DST.AutoSize = true;
             this.chbx_DST.Location = new System.Drawing.Point(78, 91);
             this.chbx_DST.Name = "chbx_DST";
-            this.chbx_DST.Size = new System.Drawing.Size(126, 17);
+            this.chbx_DST.Size = new System.Drawing.Size(155, 20);
             this.chbx_DST.TabIndex = 10;
             this.chbx_DST.Text = "Daylight Saving Time";
             this.chbx_DST.UseVisualStyleBackColor = true;
@@ -1539,7 +2404,7 @@
             "Z reports"});
             this.cbx_RangeType.Location = new System.Drawing.Point(78, 9);
             this.cbx_RangeType.Name = "cbx_RangeType";
-            this.cbx_RangeType.Size = new System.Drawing.Size(121, 21);
+            this.cbx_RangeType.Size = new System.Drawing.Size(121, 24);
             this.cbx_RangeType.TabIndex = 9;
             this.cbx_RangeType.SelectedIndexChanged += new System.EventHandler(this.cbx_RangeType_SelectedIndexChanged);
             // 
@@ -1581,7 +2446,7 @@
             this.chbx_OpenFolderAfterDwnl.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chbx_OpenFolderAfterDwnl.Location = new System.Drawing.Point(78, 166);
             this.chbx_OpenFolderAfterDwnl.Name = "chbx_OpenFolderAfterDwnl";
-            this.chbx_OpenFolderAfterDwnl.Size = new System.Drawing.Size(154, 17);
+            this.chbx_OpenFolderAfterDwnl.Size = new System.Drawing.Size(188, 20);
             this.chbx_OpenFolderAfterDwnl.TabIndex = 5;
             this.chbx_OpenFolderAfterDwnl.Text = "Open folder after download";
             this.chbx_OpenFolderAfterDwnl.UseVisualStyleBackColor = true;
@@ -1591,7 +2456,7 @@
             this.lb_EndZNum.AutoSize = true;
             this.lb_EndZNum.Location = new System.Drawing.Point(49, 143);
             this.lb_EndZNum.Name = "lb_EndZNum";
-            this.lb_EndZNum.Size = new System.Drawing.Size(23, 13);
+            this.lb_EndZNum.Size = new System.Drawing.Size(28, 16);
             this.lb_EndZNum.TabIndex = 4;
             this.lb_EndZNum.Text = "To:";
             // 
@@ -1600,7 +2465,7 @@
             this.lb_StartZNum.AutoSize = true;
             this.lb_StartZNum.Location = new System.Drawing.Point(39, 117);
             this.lb_StartZNum.Name = "lb_StartZNum";
-            this.lb_StartZNum.Size = new System.Drawing.Size(33, 13);
+            this.lb_StartZNum.Size = new System.Drawing.Size(42, 16);
             this.lb_StartZNum.TabIndex = 3;
             this.lb_StartZNum.Text = "From:";
             // 
@@ -1609,7 +2474,7 @@
             this.lb_EndDate.AutoSize = true;
             this.lb_EndDate.Location = new System.Drawing.Point(49, 64);
             this.lb_EndDate.Name = "lb_EndDate";
-            this.lb_EndDate.Size = new System.Drawing.Size(23, 13);
+            this.lb_EndDate.Size = new System.Drawing.Size(28, 16);
             this.lb_EndDate.TabIndex = 2;
             this.lb_EndDate.Text = "To:";
             // 
@@ -1618,7 +2483,7 @@
             this.lb_StartDate.AutoSize = true;
             this.lb_StartDate.Location = new System.Drawing.Point(39, 42);
             this.lb_StartDate.Name = "lb_StartDate";
-            this.lb_StartDate.Size = new System.Drawing.Size(33, 13);
+            this.lb_StartDate.Size = new System.Drawing.Size(42, 16);
             this.lb_StartDate.TabIndex = 1;
             this.lb_StartDate.Text = "From:";
             // 
@@ -1627,7 +2492,7 @@
             this.lb_RangeType.AutoSize = true;
             this.lb_RangeType.Location = new System.Drawing.Point(7, 13);
             this.lb_RangeType.Name = "lb_RangeType";
-            this.lb_RangeType.Size = new System.Drawing.Size(65, 13);
+            this.lb_RangeType.Size = new System.Drawing.Size(81, 16);
             this.lb_RangeType.TabIndex = 0;
             this.lb_RangeType.Text = "Range type:";
             // 
@@ -1642,10 +2507,11 @@
             this.tp_GetCommandList.Controls.Add(this.cbCommands);
             this.tp_GetCommandList.Controls.Add(this.tbResult);
             this.tp_GetCommandList.Controls.Add(this.btGetCommandList);
-            this.tp_GetCommandList.Location = new System.Drawing.Point(4, 22);
+            this.tp_GetCommandList.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tp_GetCommandList.Location = new System.Drawing.Point(4, 25);
             this.tp_GetCommandList.Name = "tp_GetCommandList";
             this.tp_GetCommandList.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_GetCommandList.Size = new System.Drawing.Size(675, 644);
+            this.tp_GetCommandList.Size = new System.Drawing.Size(665, 408);
             this.tp_GetCommandList.TabIndex = 4;
             this.tp_GetCommandList.Text = "Get Command List";
             this.tp_GetCommandList.UseVisualStyleBackColor = true;
@@ -1724,7 +2590,7 @@
             this.tbResult.Multiline = true;
             this.tbResult.Name = "tbResult";
             this.tbResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tbResult.Size = new System.Drawing.Size(796, 537);
+            this.tbResult.Size = new System.Drawing.Size(648, 301);
             this.tbResult.TabIndex = 1;
             // 
             // btGetCommandList
@@ -1737,857 +2603,15 @@
             this.btGetCommandList.UseVisualStyleBackColor = true;
             this.btGetCommandList.Click += new System.EventHandler(this.btGetCommandList_Click);
             // 
-            // pnl_StatusBytes
-            // 
-            this.pnl_StatusBytes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnl_StatusBytes.AutoScroll = true;
-            this.pnl_StatusBytes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.pnl_StatusBytes.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_7);
-            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_6);
-            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_5);
-            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_4);
-            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_3);
-            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_2);
-            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_1);
-            this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_0);
-            this.pnl_StatusBytes.Location = new System.Drawing.Point(731, 34);
-            this.pnl_StatusBytes.Name = "pnl_StatusBytes";
-            this.pnl_StatusBytes.Size = new System.Drawing.Size(265, 655);
-            this.pnl_StatusBytes.TabIndex = 58;
-            // 
-            // grbx_StatusByte_7
-            // 
-            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_0);
-            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_1);
-            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_2);
-            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_3);
-            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_4);
-            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_5);
-            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_6);
-            this.grbx_StatusByte_7.Controls.Add(this.chbx_S7_7);
-            this.grbx_StatusByte_7.Location = new System.Drawing.Point(3, 1159);
-            this.grbx_StatusByte_7.Name = "grbx_StatusByte_7";
-            this.grbx_StatusByte_7.Size = new System.Drawing.Size(329, 160);
-            this.grbx_StatusByte_7.TabIndex = 48;
-            this.grbx_StatusByte_7.TabStop = false;
-            // 
-            // chbx_S7_0
-            // 
-            this.chbx_S7_0.AutoCheck = false;
-            this.chbx_S7_0.AutoSize = true;
-            this.chbx_S7_0.Location = new System.Drawing.Point(6, 138);
-            this.chbx_S7_0.Name = "chbx_S7_0";
-            this.chbx_S7_0.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S7_0.TabIndex = 63;
-            this.chbx_S7_0.Text = "chbx_S7_0";
-            this.chbx_S7_0.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S7_1
-            // 
-            this.chbx_S7_1.AutoCheck = false;
-            this.chbx_S7_1.AutoSize = true;
-            this.chbx_S7_1.Location = new System.Drawing.Point(6, 121);
-            this.chbx_S7_1.Name = "chbx_S7_1";
-            this.chbx_S7_1.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S7_1.TabIndex = 62;
-            this.chbx_S7_1.Text = "chbx_S7_1";
-            this.chbx_S7_1.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S7_2
-            // 
-            this.chbx_S7_2.AutoCheck = false;
-            this.chbx_S7_2.AutoSize = true;
-            this.chbx_S7_2.Location = new System.Drawing.Point(6, 104);
-            this.chbx_S7_2.Name = "chbx_S7_2";
-            this.chbx_S7_2.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S7_2.TabIndex = 61;
-            this.chbx_S7_2.Text = "chbx_S7_2";
-            this.chbx_S7_2.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S7_3
-            // 
-            this.chbx_S7_3.AutoCheck = false;
-            this.chbx_S7_3.AutoSize = true;
-            this.chbx_S7_3.Location = new System.Drawing.Point(6, 87);
-            this.chbx_S7_3.Name = "chbx_S7_3";
-            this.chbx_S7_3.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S7_3.TabIndex = 60;
-            this.chbx_S7_3.Text = "chbx_S7_3";
-            this.chbx_S7_3.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S7_4
-            // 
-            this.chbx_S7_4.AutoCheck = false;
-            this.chbx_S7_4.AutoSize = true;
-            this.chbx_S7_4.Location = new System.Drawing.Point(6, 70);
-            this.chbx_S7_4.Name = "chbx_S7_4";
-            this.chbx_S7_4.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S7_4.TabIndex = 59;
-            this.chbx_S7_4.Text = "chbx_S7_4";
-            this.chbx_S7_4.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S7_5
-            // 
-            this.chbx_S7_5.AutoCheck = false;
-            this.chbx_S7_5.AutoSize = true;
-            this.chbx_S7_5.Location = new System.Drawing.Point(6, 53);
-            this.chbx_S7_5.Name = "chbx_S7_5";
-            this.chbx_S7_5.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S7_5.TabIndex = 58;
-            this.chbx_S7_5.Text = "chbx_S7_5";
-            this.chbx_S7_5.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S7_6
-            // 
-            this.chbx_S7_6.AutoCheck = false;
-            this.chbx_S7_6.AutoSize = true;
-            this.chbx_S7_6.Location = new System.Drawing.Point(6, 36);
-            this.chbx_S7_6.Name = "chbx_S7_6";
-            this.chbx_S7_6.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S7_6.TabIndex = 57;
-            this.chbx_S7_6.Text = "chbx_S7_6";
-            this.chbx_S7_6.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S7_7
-            // 
-            this.chbx_S7_7.AutoCheck = false;
-            this.chbx_S7_7.AutoSize = true;
-            this.chbx_S7_7.Location = new System.Drawing.Point(6, 19);
-            this.chbx_S7_7.Name = "chbx_S7_7";
-            this.chbx_S7_7.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S7_7.TabIndex = 56;
-            this.chbx_S7_7.Text = "chbx_S7_7";
-            this.chbx_S7_7.UseVisualStyleBackColor = true;
-            // 
-            // grbx_StatusByte_6
-            // 
-            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_0);
-            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_1);
-            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_2);
-            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_3);
-            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_4);
-            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_5);
-            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_6);
-            this.grbx_StatusByte_6.Controls.Add(this.chbx_S6_7);
-            this.grbx_StatusByte_6.Location = new System.Drawing.Point(3, 985);
-            this.grbx_StatusByte_6.Name = "grbx_StatusByte_6";
-            this.grbx_StatusByte_6.Size = new System.Drawing.Size(329, 160);
-            this.grbx_StatusByte_6.TabIndex = 6;
-            this.grbx_StatusByte_6.TabStop = false;
-            // 
-            // chbx_S6_0
-            // 
-            this.chbx_S6_0.AutoCheck = false;
-            this.chbx_S6_0.AutoSize = true;
-            this.chbx_S6_0.Location = new System.Drawing.Point(6, 138);
-            this.chbx_S6_0.Name = "chbx_S6_0";
-            this.chbx_S6_0.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S6_0.TabIndex = 55;
-            this.chbx_S6_0.Text = "chbx_S6_0";
-            this.chbx_S6_0.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S6_1
-            // 
-            this.chbx_S6_1.AutoCheck = false;
-            this.chbx_S6_1.AutoSize = true;
-            this.chbx_S6_1.Location = new System.Drawing.Point(6, 121);
-            this.chbx_S6_1.Name = "chbx_S6_1";
-            this.chbx_S6_1.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S6_1.TabIndex = 54;
-            this.chbx_S6_1.Text = "chbx_S6_1";
-            this.chbx_S6_1.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S6_2
-            // 
-            this.chbx_S6_2.AutoCheck = false;
-            this.chbx_S6_2.AutoSize = true;
-            this.chbx_S6_2.Location = new System.Drawing.Point(6, 104);
-            this.chbx_S6_2.Name = "chbx_S6_2";
-            this.chbx_S6_2.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S6_2.TabIndex = 53;
-            this.chbx_S6_2.Text = "chbx_S6_2";
-            this.chbx_S6_2.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S6_3
-            // 
-            this.chbx_S6_3.AutoCheck = false;
-            this.chbx_S6_3.AutoSize = true;
-            this.chbx_S6_3.Location = new System.Drawing.Point(6, 87);
-            this.chbx_S6_3.Name = "chbx_S6_3";
-            this.chbx_S6_3.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S6_3.TabIndex = 52;
-            this.chbx_S6_3.Text = "chbx_S6_3";
-            this.chbx_S6_3.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S6_4
-            // 
-            this.chbx_S6_4.AutoCheck = false;
-            this.chbx_S6_4.AutoSize = true;
-            this.chbx_S6_4.Location = new System.Drawing.Point(6, 70);
-            this.chbx_S6_4.Name = "chbx_S6_4";
-            this.chbx_S6_4.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S6_4.TabIndex = 51;
-            this.chbx_S6_4.Text = "chbx_S6_4";
-            this.chbx_S6_4.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S6_5
-            // 
-            this.chbx_S6_5.AutoCheck = false;
-            this.chbx_S6_5.AutoSize = true;
-            this.chbx_S6_5.Location = new System.Drawing.Point(6, 53);
-            this.chbx_S6_5.Name = "chbx_S6_5";
-            this.chbx_S6_5.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S6_5.TabIndex = 50;
-            this.chbx_S6_5.Text = "chbx_S6_5";
-            this.chbx_S6_5.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S6_6
-            // 
-            this.chbx_S6_6.AutoCheck = false;
-            this.chbx_S6_6.AutoSize = true;
-            this.chbx_S6_6.Location = new System.Drawing.Point(6, 36);
-            this.chbx_S6_6.Name = "chbx_S6_6";
-            this.chbx_S6_6.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S6_6.TabIndex = 49;
-            this.chbx_S6_6.Text = "chbx_S6_6";
-            this.chbx_S6_6.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S6_7
-            // 
-            this.chbx_S6_7.AutoCheck = false;
-            this.chbx_S6_7.AutoSize = true;
-            this.chbx_S6_7.Location = new System.Drawing.Point(6, 19);
-            this.chbx_S6_7.Name = "chbx_S6_7";
-            this.chbx_S6_7.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S6_7.TabIndex = 48;
-            this.chbx_S6_7.Text = "chbx_S6_7";
-            this.chbx_S6_7.UseVisualStyleBackColor = true;
-            // 
-            // grbx_StatusByte_5
-            // 
-            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_0);
-            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_1);
-            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_2);
-            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_3);
-            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_4);
-            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_5);
-            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_6);
-            this.grbx_StatusByte_5.Controls.Add(this.chbx_S5_7);
-            this.grbx_StatusByte_5.Location = new System.Drawing.Point(3, 819);
-            this.grbx_StatusByte_5.Name = "grbx_StatusByte_5";
-            this.grbx_StatusByte_5.Size = new System.Drawing.Size(329, 160);
-            this.grbx_StatusByte_5.TabIndex = 5;
-            this.grbx_StatusByte_5.TabStop = false;
-            // 
-            // chbx_S5_0
-            // 
-            this.chbx_S5_0.AutoCheck = false;
-            this.chbx_S5_0.AutoSize = true;
-            this.chbx_S5_0.Location = new System.Drawing.Point(6, 135);
-            this.chbx_S5_0.Name = "chbx_S5_0";
-            this.chbx_S5_0.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S5_0.TabIndex = 47;
-            this.chbx_S5_0.Text = "chbx_S5_0";
-            this.chbx_S5_0.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S5_1
-            // 
-            this.chbx_S5_1.AutoCheck = false;
-            this.chbx_S5_1.AutoSize = true;
-            this.chbx_S5_1.Location = new System.Drawing.Point(6, 118);
-            this.chbx_S5_1.Name = "chbx_S5_1";
-            this.chbx_S5_1.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S5_1.TabIndex = 46;
-            this.chbx_S5_1.Text = "chbx_S5_1";
-            this.chbx_S5_1.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S5_2
-            // 
-            this.chbx_S5_2.AutoCheck = false;
-            this.chbx_S5_2.AutoSize = true;
-            this.chbx_S5_2.Location = new System.Drawing.Point(6, 101);
-            this.chbx_S5_2.Name = "chbx_S5_2";
-            this.chbx_S5_2.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S5_2.TabIndex = 45;
-            this.chbx_S5_2.Text = "chbx_S5_2";
-            this.chbx_S5_2.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S5_3
-            // 
-            this.chbx_S5_3.AutoCheck = false;
-            this.chbx_S5_3.AutoSize = true;
-            this.chbx_S5_3.Location = new System.Drawing.Point(6, 84);
-            this.chbx_S5_3.Name = "chbx_S5_3";
-            this.chbx_S5_3.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S5_3.TabIndex = 44;
-            this.chbx_S5_3.Text = "chbx_S5_3";
-            this.chbx_S5_3.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S5_4
-            // 
-            this.chbx_S5_4.AutoCheck = false;
-            this.chbx_S5_4.AutoSize = true;
-            this.chbx_S5_4.Location = new System.Drawing.Point(6, 67);
-            this.chbx_S5_4.Name = "chbx_S5_4";
-            this.chbx_S5_4.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S5_4.TabIndex = 43;
-            this.chbx_S5_4.Text = "chbx_S5_4";
-            this.chbx_S5_4.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S5_5
-            // 
-            this.chbx_S5_5.AutoCheck = false;
-            this.chbx_S5_5.AutoSize = true;
-            this.chbx_S5_5.Location = new System.Drawing.Point(6, 50);
-            this.chbx_S5_5.Name = "chbx_S5_5";
-            this.chbx_S5_5.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S5_5.TabIndex = 42;
-            this.chbx_S5_5.Text = "chbx_S5_5";
-            this.chbx_S5_5.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S5_6
-            // 
-            this.chbx_S5_6.AutoCheck = false;
-            this.chbx_S5_6.AutoSize = true;
-            this.chbx_S5_6.Location = new System.Drawing.Point(6, 33);
-            this.chbx_S5_6.Name = "chbx_S5_6";
-            this.chbx_S5_6.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S5_6.TabIndex = 41;
-            this.chbx_S5_6.Text = "chbx_S5_6";
-            this.chbx_S5_6.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S5_7
-            // 
-            this.chbx_S5_7.AutoCheck = false;
-            this.chbx_S5_7.AutoSize = true;
-            this.chbx_S5_7.Location = new System.Drawing.Point(6, 16);
-            this.chbx_S5_7.Name = "chbx_S5_7";
-            this.chbx_S5_7.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S5_7.TabIndex = 40;
-            this.chbx_S5_7.Text = "chbx_S5_7";
-            this.chbx_S5_7.UseVisualStyleBackColor = true;
-            // 
-            // grbx_StatusByte_4
-            // 
-            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_0);
-            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_1);
-            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_2);
-            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_3);
-            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_4);
-            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_5);
-            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_6);
-            this.grbx_StatusByte_4.Controls.Add(this.chbx_S4_7);
-            this.grbx_StatusByte_4.Location = new System.Drawing.Point(3, 657);
-            this.grbx_StatusByte_4.Name = "grbx_StatusByte_4";
-            this.grbx_StatusByte_4.Size = new System.Drawing.Size(329, 160);
-            this.grbx_StatusByte_4.TabIndex = 4;
-            this.grbx_StatusByte_4.TabStop = false;
-            // 
-            // chbx_S4_0
-            // 
-            this.chbx_S4_0.AutoCheck = false;
-            this.chbx_S4_0.AutoSize = true;
-            this.chbx_S4_0.Location = new System.Drawing.Point(6, 134);
-            this.chbx_S4_0.Name = "chbx_S4_0";
-            this.chbx_S4_0.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S4_0.TabIndex = 39;
-            this.chbx_S4_0.Text = "chbx_S4_0";
-            this.chbx_S4_0.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S4_1
-            // 
-            this.chbx_S4_1.AutoCheck = false;
-            this.chbx_S4_1.AutoSize = true;
-            this.chbx_S4_1.Location = new System.Drawing.Point(6, 117);
-            this.chbx_S4_1.Name = "chbx_S4_1";
-            this.chbx_S4_1.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S4_1.TabIndex = 38;
-            this.chbx_S4_1.Text = "chbx_S4_1";
-            this.chbx_S4_1.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S4_2
-            // 
-            this.chbx_S4_2.AutoCheck = false;
-            this.chbx_S4_2.AutoSize = true;
-            this.chbx_S4_2.Location = new System.Drawing.Point(6, 100);
-            this.chbx_S4_2.Name = "chbx_S4_2";
-            this.chbx_S4_2.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S4_2.TabIndex = 37;
-            this.chbx_S4_2.Text = "chbx_S4_2";
-            this.chbx_S4_2.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S4_3
-            // 
-            this.chbx_S4_3.AutoCheck = false;
-            this.chbx_S4_3.AutoSize = true;
-            this.chbx_S4_3.Location = new System.Drawing.Point(6, 83);
-            this.chbx_S4_3.Name = "chbx_S4_3";
-            this.chbx_S4_3.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S4_3.TabIndex = 36;
-            this.chbx_S4_3.Text = "chbx_S4_3";
-            this.chbx_S4_3.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S4_4
-            // 
-            this.chbx_S4_4.AutoCheck = false;
-            this.chbx_S4_4.AutoSize = true;
-            this.chbx_S4_4.Location = new System.Drawing.Point(6, 66);
-            this.chbx_S4_4.Name = "chbx_S4_4";
-            this.chbx_S4_4.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S4_4.TabIndex = 35;
-            this.chbx_S4_4.Text = "chbx_S4_4";
-            this.chbx_S4_4.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S4_5
-            // 
-            this.chbx_S4_5.AutoCheck = false;
-            this.chbx_S4_5.AutoSize = true;
-            this.chbx_S4_5.Location = new System.Drawing.Point(6, 49);
-            this.chbx_S4_5.Name = "chbx_S4_5";
-            this.chbx_S4_5.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S4_5.TabIndex = 34;
-            this.chbx_S4_5.Text = "chbx_S4_5";
-            this.chbx_S4_5.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S4_6
-            // 
-            this.chbx_S4_6.AutoCheck = false;
-            this.chbx_S4_6.AutoSize = true;
-            this.chbx_S4_6.Location = new System.Drawing.Point(6, 32);
-            this.chbx_S4_6.Name = "chbx_S4_6";
-            this.chbx_S4_6.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S4_6.TabIndex = 33;
-            this.chbx_S4_6.Text = "chbx_S4_6";
-            this.chbx_S4_6.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S4_7
-            // 
-            this.chbx_S4_7.AutoCheck = false;
-            this.chbx_S4_7.AutoSize = true;
-            this.chbx_S4_7.Location = new System.Drawing.Point(6, 15);
-            this.chbx_S4_7.Name = "chbx_S4_7";
-            this.chbx_S4_7.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S4_7.TabIndex = 32;
-            this.chbx_S4_7.Text = "chbx_S4_7";
-            this.chbx_S4_7.UseVisualStyleBackColor = true;
-            // 
-            // grbx_StatusByte_3
-            // 
-            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_0);
-            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_1);
-            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_2);
-            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_3);
-            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_4);
-            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_5);
-            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_6);
-            this.grbx_StatusByte_3.Controls.Add(this.chbx_S3_7);
-            this.grbx_StatusByte_3.Location = new System.Drawing.Point(3, 496);
-            this.grbx_StatusByte_3.Name = "grbx_StatusByte_3";
-            this.grbx_StatusByte_3.Size = new System.Drawing.Size(329, 160);
-            this.grbx_StatusByte_3.TabIndex = 3;
-            this.grbx_StatusByte_3.TabStop = false;
-            // 
-            // chbx_S3_0
-            // 
-            this.chbx_S3_0.AutoCheck = false;
-            this.chbx_S3_0.AutoSize = true;
-            this.chbx_S3_0.Location = new System.Drawing.Point(6, 132);
-            this.chbx_S3_0.Name = "chbx_S3_0";
-            this.chbx_S3_0.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S3_0.TabIndex = 31;
-            this.chbx_S3_0.Text = "chbx_S3_0";
-            this.chbx_S3_0.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S3_1
-            // 
-            this.chbx_S3_1.AutoCheck = false;
-            this.chbx_S3_1.AutoSize = true;
-            this.chbx_S3_1.Location = new System.Drawing.Point(6, 115);
-            this.chbx_S3_1.Name = "chbx_S3_1";
-            this.chbx_S3_1.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S3_1.TabIndex = 30;
-            this.chbx_S3_1.Text = "chbx_S3_1";
-            this.chbx_S3_1.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S3_2
-            // 
-            this.chbx_S3_2.AutoCheck = false;
-            this.chbx_S3_2.AutoSize = true;
-            this.chbx_S3_2.Location = new System.Drawing.Point(6, 98);
-            this.chbx_S3_2.Name = "chbx_S3_2";
-            this.chbx_S3_2.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S3_2.TabIndex = 29;
-            this.chbx_S3_2.Text = "chbx_S3_2";
-            this.chbx_S3_2.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S3_3
-            // 
-            this.chbx_S3_3.AutoCheck = false;
-            this.chbx_S3_3.AutoSize = true;
-            this.chbx_S3_3.Location = new System.Drawing.Point(6, 81);
-            this.chbx_S3_3.Name = "chbx_S3_3";
-            this.chbx_S3_3.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S3_3.TabIndex = 28;
-            this.chbx_S3_3.Text = "chbx_S3_3";
-            this.chbx_S3_3.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S3_4
-            // 
-            this.chbx_S3_4.AutoCheck = false;
-            this.chbx_S3_4.AutoSize = true;
-            this.chbx_S3_4.Location = new System.Drawing.Point(6, 64);
-            this.chbx_S3_4.Name = "chbx_S3_4";
-            this.chbx_S3_4.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S3_4.TabIndex = 27;
-            this.chbx_S3_4.Text = "chbx_S3_4";
-            this.chbx_S3_4.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S3_5
-            // 
-            this.chbx_S3_5.AutoCheck = false;
-            this.chbx_S3_5.AutoSize = true;
-            this.chbx_S3_5.Location = new System.Drawing.Point(6, 47);
-            this.chbx_S3_5.Name = "chbx_S3_5";
-            this.chbx_S3_5.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S3_5.TabIndex = 26;
-            this.chbx_S3_5.Text = "chbx_S3_5";
-            this.chbx_S3_5.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S3_6
-            // 
-            this.chbx_S3_6.AutoCheck = false;
-            this.chbx_S3_6.AutoSize = true;
-            this.chbx_S3_6.Location = new System.Drawing.Point(6, 30);
-            this.chbx_S3_6.Name = "chbx_S3_6";
-            this.chbx_S3_6.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S3_6.TabIndex = 25;
-            this.chbx_S3_6.Text = "chbx_S3_6";
-            this.chbx_S3_6.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S3_7
-            // 
-            this.chbx_S3_7.AutoCheck = false;
-            this.chbx_S3_7.AutoSize = true;
-            this.chbx_S3_7.Location = new System.Drawing.Point(6, 13);
-            this.chbx_S3_7.Name = "chbx_S3_7";
-            this.chbx_S3_7.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S3_7.TabIndex = 24;
-            this.chbx_S3_7.Text = "chbx_S3_7";
-            this.chbx_S3_7.UseVisualStyleBackColor = true;
-            // 
-            // grbx_StatusByte_2
-            // 
-            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_0);
-            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_1);
-            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_2);
-            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_3);
-            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_4);
-            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_5);
-            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_6);
-            this.grbx_StatusByte_2.Controls.Add(this.chbx_S2_7);
-            this.grbx_StatusByte_2.Location = new System.Drawing.Point(3, 340);
-            this.grbx_StatusByte_2.Name = "grbx_StatusByte_2";
-            this.grbx_StatusByte_2.Size = new System.Drawing.Size(329, 160);
-            this.grbx_StatusByte_2.TabIndex = 2;
-            this.grbx_StatusByte_2.TabStop = false;
-            // 
-            // chbx_S2_0
-            // 
-            this.chbx_S2_0.AutoCheck = false;
-            this.chbx_S2_0.AutoSize = true;
-            this.chbx_S2_0.Location = new System.Drawing.Point(6, 133);
-            this.chbx_S2_0.Name = "chbx_S2_0";
-            this.chbx_S2_0.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S2_0.TabIndex = 23;
-            this.chbx_S2_0.Text = "chbx_S2_0";
-            this.chbx_S2_0.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S2_1
-            // 
-            this.chbx_S2_1.AutoCheck = false;
-            this.chbx_S2_1.AutoSize = true;
-            this.chbx_S2_1.Location = new System.Drawing.Point(6, 116);
-            this.chbx_S2_1.Name = "chbx_S2_1";
-            this.chbx_S2_1.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S2_1.TabIndex = 22;
-            this.chbx_S2_1.Text = "chbx_S2_1";
-            this.chbx_S2_1.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S2_2
-            // 
-            this.chbx_S2_2.AutoCheck = false;
-            this.chbx_S2_2.AutoSize = true;
-            this.chbx_S2_2.Location = new System.Drawing.Point(6, 99);
-            this.chbx_S2_2.Name = "chbx_S2_2";
-            this.chbx_S2_2.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S2_2.TabIndex = 21;
-            this.chbx_S2_2.Text = "chbx_S2_2";
-            this.chbx_S2_2.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S2_3
-            // 
-            this.chbx_S2_3.AutoCheck = false;
-            this.chbx_S2_3.AutoSize = true;
-            this.chbx_S2_3.Location = new System.Drawing.Point(6, 82);
-            this.chbx_S2_3.Name = "chbx_S2_3";
-            this.chbx_S2_3.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S2_3.TabIndex = 20;
-            this.chbx_S2_3.Text = "chbx_S2_3";
-            this.chbx_S2_3.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S2_4
-            // 
-            this.chbx_S2_4.AutoCheck = false;
-            this.chbx_S2_4.AutoSize = true;
-            this.chbx_S2_4.Location = new System.Drawing.Point(6, 65);
-            this.chbx_S2_4.Name = "chbx_S2_4";
-            this.chbx_S2_4.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S2_4.TabIndex = 19;
-            this.chbx_S2_4.Text = "chbx_S2_4";
-            this.chbx_S2_4.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S2_5
-            // 
-            this.chbx_S2_5.AutoCheck = false;
-            this.chbx_S2_5.AutoSize = true;
-            this.chbx_S2_5.Location = new System.Drawing.Point(6, 48);
-            this.chbx_S2_5.Name = "chbx_S2_5";
-            this.chbx_S2_5.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S2_5.TabIndex = 18;
-            this.chbx_S2_5.Text = "chbx_S2_5";
-            this.chbx_S2_5.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S2_6
-            // 
-            this.chbx_S2_6.AutoCheck = false;
-            this.chbx_S2_6.AutoSize = true;
-            this.chbx_S2_6.Location = new System.Drawing.Point(6, 31);
-            this.chbx_S2_6.Name = "chbx_S2_6";
-            this.chbx_S2_6.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S2_6.TabIndex = 17;
-            this.chbx_S2_6.Text = "chbx_S2_6";
-            this.chbx_S2_6.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S2_7
-            // 
-            this.chbx_S2_7.AutoCheck = false;
-            this.chbx_S2_7.AutoSize = true;
-            this.chbx_S2_7.Location = new System.Drawing.Point(6, 14);
-            this.chbx_S2_7.Name = "chbx_S2_7";
-            this.chbx_S2_7.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S2_7.TabIndex = 16;
-            this.chbx_S2_7.Text = "chbx_S2_7";
-            this.chbx_S2_7.UseVisualStyleBackColor = true;
-            // 
-            // grbx_StatusByte_1
-            // 
-            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_0);
-            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_1);
-            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_2);
-            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_3);
-            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_4);
-            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_5);
-            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_6);
-            this.grbx_StatusByte_1.Controls.Add(this.chbx_S1_7);
-            this.grbx_StatusByte_1.Location = new System.Drawing.Point(3, 166);
-            this.grbx_StatusByte_1.Name = "grbx_StatusByte_1";
-            this.grbx_StatusByte_1.Size = new System.Drawing.Size(329, 160);
-            this.grbx_StatusByte_1.TabIndex = 1;
-            this.grbx_StatusByte_1.TabStop = false;
-            // 
-            // chbx_S1_0
-            // 
-            this.chbx_S1_0.AutoCheck = false;
-            this.chbx_S1_0.AutoSize = true;
-            this.chbx_S1_0.Location = new System.Drawing.Point(6, 136);
-            this.chbx_S1_0.Name = "chbx_S1_0";
-            this.chbx_S1_0.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S1_0.TabIndex = 15;
-            this.chbx_S1_0.Text = "chbx_S1_0";
-            this.chbx_S1_0.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S1_1
-            // 
-            this.chbx_S1_1.AutoCheck = false;
-            this.chbx_S1_1.AutoSize = true;
-            this.chbx_S1_1.Location = new System.Drawing.Point(6, 119);
-            this.chbx_S1_1.Name = "chbx_S1_1";
-            this.chbx_S1_1.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S1_1.TabIndex = 14;
-            this.chbx_S1_1.Text = "chbx_S1_1";
-            this.chbx_S1_1.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S1_2
-            // 
-            this.chbx_S1_2.AutoCheck = false;
-            this.chbx_S1_2.AutoSize = true;
-            this.chbx_S1_2.Location = new System.Drawing.Point(6, 102);
-            this.chbx_S1_2.Name = "chbx_S1_2";
-            this.chbx_S1_2.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S1_2.TabIndex = 13;
-            this.chbx_S1_2.Text = "chbx_S1_2";
-            this.chbx_S1_2.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S1_3
-            // 
-            this.chbx_S1_3.AutoCheck = false;
-            this.chbx_S1_3.AutoSize = true;
-            this.chbx_S1_3.Location = new System.Drawing.Point(6, 85);
-            this.chbx_S1_3.Name = "chbx_S1_3";
-            this.chbx_S1_3.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S1_3.TabIndex = 12;
-            this.chbx_S1_3.Text = "chbx_S1_3";
-            this.chbx_S1_3.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S1_4
-            // 
-            this.chbx_S1_4.AutoCheck = false;
-            this.chbx_S1_4.AutoSize = true;
-            this.chbx_S1_4.Location = new System.Drawing.Point(6, 68);
-            this.chbx_S1_4.Name = "chbx_S1_4";
-            this.chbx_S1_4.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S1_4.TabIndex = 11;
-            this.chbx_S1_4.Text = "chbx_S1_4";
-            this.chbx_S1_4.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S1_5
-            // 
-            this.chbx_S1_5.AutoCheck = false;
-            this.chbx_S1_5.AutoSize = true;
-            this.chbx_S1_5.Location = new System.Drawing.Point(6, 51);
-            this.chbx_S1_5.Name = "chbx_S1_5";
-            this.chbx_S1_5.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S1_5.TabIndex = 10;
-            this.chbx_S1_5.Text = "chbx_S1_5";
-            this.chbx_S1_5.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S1_6
-            // 
-            this.chbx_S1_6.AutoCheck = false;
-            this.chbx_S1_6.AutoSize = true;
-            this.chbx_S1_6.Location = new System.Drawing.Point(6, 34);
-            this.chbx_S1_6.Name = "chbx_S1_6";
-            this.chbx_S1_6.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S1_6.TabIndex = 9;
-            this.chbx_S1_6.Text = "chbx_S1_6";
-            this.chbx_S1_6.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S1_7
-            // 
-            this.chbx_S1_7.AutoCheck = false;
-            this.chbx_S1_7.AutoSize = true;
-            this.chbx_S1_7.Location = new System.Drawing.Point(6, 17);
-            this.chbx_S1_7.Name = "chbx_S1_7";
-            this.chbx_S1_7.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S1_7.TabIndex = 8;
-            this.chbx_S1_7.Text = "chbx_S1_7";
-            this.chbx_S1_7.UseVisualStyleBackColor = true;
-            // 
-            // grbx_StatusByte_0
-            // 
-            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_0);
-            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_1);
-            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_2);
-            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_3);
-            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_4);
-            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_5);
-            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_6);
-            this.grbx_StatusByte_0.Controls.Add(this.chbx_S0_7);
-            this.grbx_StatusByte_0.Location = new System.Drawing.Point(3, 0);
-            this.grbx_StatusByte_0.Name = "grbx_StatusByte_0";
-            this.grbx_StatusByte_0.Size = new System.Drawing.Size(329, 160);
-            this.grbx_StatusByte_0.TabIndex = 0;
-            this.grbx_StatusByte_0.TabStop = false;
-            // 
-            // chbx_S0_0
-            // 
-            this.chbx_S0_0.AutoCheck = false;
-            this.chbx_S0_0.AutoSize = true;
-            this.chbx_S0_0.Location = new System.Drawing.Point(6, 131);
-            this.chbx_S0_0.Name = "chbx_S0_0";
-            this.chbx_S0_0.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S0_0.TabIndex = 7;
-            this.chbx_S0_0.Text = "chbx_S0_0";
-            this.chbx_S0_0.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S0_1
-            // 
-            this.chbx_S0_1.AutoCheck = false;
-            this.chbx_S0_1.AutoSize = true;
-            this.chbx_S0_1.Location = new System.Drawing.Point(6, 114);
-            this.chbx_S0_1.Name = "chbx_S0_1";
-            this.chbx_S0_1.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S0_1.TabIndex = 6;
-            this.chbx_S0_1.Text = "chbx_S0_1";
-            this.chbx_S0_1.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S0_2
-            // 
-            this.chbx_S0_2.AutoCheck = false;
-            this.chbx_S0_2.AutoSize = true;
-            this.chbx_S0_2.Location = new System.Drawing.Point(6, 97);
-            this.chbx_S0_2.Name = "chbx_S0_2";
-            this.chbx_S0_2.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S0_2.TabIndex = 5;
-            this.chbx_S0_2.Text = "chbx_S0_2";
-            this.chbx_S0_2.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S0_3
-            // 
-            this.chbx_S0_3.AutoCheck = false;
-            this.chbx_S0_3.AutoSize = true;
-            this.chbx_S0_3.Location = new System.Drawing.Point(6, 80);
-            this.chbx_S0_3.Name = "chbx_S0_3";
-            this.chbx_S0_3.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S0_3.TabIndex = 4;
-            this.chbx_S0_3.Text = "chbx_S0_3";
-            this.chbx_S0_3.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S0_4
-            // 
-            this.chbx_S0_4.AutoCheck = false;
-            this.chbx_S0_4.AutoSize = true;
-            this.chbx_S0_4.Location = new System.Drawing.Point(6, 63);
-            this.chbx_S0_4.Name = "chbx_S0_4";
-            this.chbx_S0_4.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S0_4.TabIndex = 3;
-            this.chbx_S0_4.Text = "chbx_S0_4";
-            this.chbx_S0_4.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S0_5
-            // 
-            this.chbx_S0_5.AutoCheck = false;
-            this.chbx_S0_5.AutoSize = true;
-            this.chbx_S0_5.Location = new System.Drawing.Point(6, 46);
-            this.chbx_S0_5.Name = "chbx_S0_5";
-            this.chbx_S0_5.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S0_5.TabIndex = 2;
-            this.chbx_S0_5.Text = "chbx_S0_5";
-            this.chbx_S0_5.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S0_6
-            // 
-            this.chbx_S0_6.AutoCheck = false;
-            this.chbx_S0_6.AutoSize = true;
-            this.chbx_S0_6.Location = new System.Drawing.Point(6, 29);
-            this.chbx_S0_6.Name = "chbx_S0_6";
-            this.chbx_S0_6.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S0_6.TabIndex = 1;
-            this.chbx_S0_6.Text = "chbx_S0_6";
-            this.chbx_S0_6.UseVisualStyleBackColor = true;
-            // 
-            // chbx_S0_7
-            // 
-            this.chbx_S0_7.AutoCheck = false;
-            this.chbx_S0_7.AutoSize = true;
-            this.chbx_S0_7.Location = new System.Drawing.Point(6, 12);
-            this.chbx_S0_7.Name = "chbx_S0_7";
-            this.chbx_S0_7.Size = new System.Drawing.Size(80, 17);
-            this.chbx_S0_7.TabIndex = 0;
-            this.chbx_S0_7.Text = "chbx_S0_7";
-            this.chbx_S0_7.UseVisualStyleBackColor = true;
+            // tabPOS
+            // 
+            this.tabPOS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.tabPOS.Location = new System.Drawing.Point(4, 22);
+            this.tabPOS.Name = "tabPOS";
+            this.tabPOS.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPOS.Size = new System.Drawing.Size(976, 651);
+            this.tabPOS.TabIndex = 1;
+            this.tabPOS.Text = "Point of sales";
             // 
             // fm
             // 
@@ -2595,7 +2619,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1008, 701);
-            this.Controls.Add(this.pnl_StatusBytes);
             this.Controls.Add(this.tabControl1);
             this.DoubleBuffered = true;
             this.MinimumSize = new System.Drawing.Size(983, 739);
@@ -2604,7 +2627,24 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fm_FormClosing);
             this.Load += new System.EventHandler(this.fm_Load);
             this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
+            this.tabPage_Settings.ResumeLayout(false);
+            this.pnl_StatusBytes.ResumeLayout(false);
+            this.grbx_StatusByte_7.ResumeLayout(false);
+            this.grbx_StatusByte_7.PerformLayout();
+            this.grbx_StatusByte_6.ResumeLayout(false);
+            this.grbx_StatusByte_6.PerformLayout();
+            this.grbx_StatusByte_5.ResumeLayout(false);
+            this.grbx_StatusByte_5.PerformLayout();
+            this.grbx_StatusByte_4.ResumeLayout(false);
+            this.grbx_StatusByte_4.PerformLayout();
+            this.grbx_StatusByte_3.ResumeLayout(false);
+            this.grbx_StatusByte_3.PerformLayout();
+            this.grbx_StatusByte_2.ResumeLayout(false);
+            this.grbx_StatusByte_2.PerformLayout();
+            this.grbx_StatusByte_1.ResumeLayout(false);
+            this.grbx_StatusByte_1.PerformLayout();
+            this.grbx_StatusByte_0.ResumeLayout(false);
+            this.grbx_StatusByte_0.PerformLayout();
             this.pnl_Progress.ResumeLayout(false);
             this.pnl_Errors.ResumeLayout(false);
             this.pnl_Errors.PerformLayout();
@@ -2634,23 +2674,6 @@
             this.tp_ANAF.PerformLayout();
             this.tp_GetCommandList.ResumeLayout(false);
             this.tp_GetCommandList.PerformLayout();
-            this.pnl_StatusBytes.ResumeLayout(false);
-            this.grbx_StatusByte_7.ResumeLayout(false);
-            this.grbx_StatusByte_7.PerformLayout();
-            this.grbx_StatusByte_6.ResumeLayout(false);
-            this.grbx_StatusByte_6.PerformLayout();
-            this.grbx_StatusByte_5.ResumeLayout(false);
-            this.grbx_StatusByte_5.PerformLayout();
-            this.grbx_StatusByte_4.ResumeLayout(false);
-            this.grbx_StatusByte_4.PerformLayout();
-            this.grbx_StatusByte_3.ResumeLayout(false);
-            this.grbx_StatusByte_3.PerformLayout();
-            this.grbx_StatusByte_2.ResumeLayout(false);
-            this.grbx_StatusByte_2.PerformLayout();
-            this.grbx_StatusByte_1.ResumeLayout(false);
-            this.grbx_StatusByte_1.PerformLayout();
-            this.grbx_StatusByte_0.ResumeLayout(false);
-            this.grbx_StatusByte_0.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2661,7 +2684,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage_Settings;
         private System.Windows.Forms.Panel pnl_Progress;
         private System.Windows.Forms.ProgressBar pb_2;
         private System.Windows.Forms.ProgressBar pb_1;
@@ -2794,6 +2817,7 @@
         private System.Windows.Forms.ComboBox cbCommands;
         private System.Windows.Forms.TextBox tbResult;
         private System.Windows.Forms.Button btGetCommandList;
+        private System.Windows.Forms.TabPage tabPOS;
         private System.Windows.Forms.Panel pnl_StatusBytes;
         private System.Windows.Forms.GroupBox grbx_StatusByte_7;
         private System.Windows.Forms.CheckBox chbx_S7_0;
