@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fm));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
@@ -254,6 +255,9 @@
             this.tab_bon3 = new System.Windows.Forms.TabPage();
             this.tab_bon4 = new System.Windows.Forms.TabPage();
             this.tab_bonPDA = new System.Windows.Forms.TabPage();
+            this.label_status = new System.Windows.Forms.Label();
+            this.label_FXstatus = new System.Windows.Forms.Label();
+            this.picture_status = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage_Settings.SuspendLayout();
             this.pnl_StatusBytes.SuspendLayout();
@@ -289,6 +293,7 @@
             this.panel_butoaneCasa.SuspendLayout();
             this.tabControl_listeProduse.SuspendLayout();
             this.tab_Bonuri.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_status)).BeginInit();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -304,10 +309,10 @@
             this.tabControl1.Controls.Add(this.tabPage_Settings);
             this.tabControl1.Controls.Add(this.tabPOS);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(12, 12);
+            this.tabControl1.Location = new System.Drawing.Point(12, 28);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(984, 677);
+            this.tabControl1.Size = new System.Drawing.Size(984, 652);
             this.tabControl1.TabIndex = 8;
             // 
             // tabPage_Settings
@@ -322,7 +327,7 @@
             this.tabPage_Settings.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Settings.Name = "tabPage_Settings";
             this.tabPage_Settings.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Settings.Size = new System.Drawing.Size(976, 644);
+            this.tabPage_Settings.Size = new System.Drawing.Size(976, 619);
             this.tabPage_Settings.TabIndex = 0;
             this.tabPage_Settings.Text = "Settings";
             // 
@@ -343,7 +348,7 @@
             this.pnl_StatusBytes.Controls.Add(this.grbx_StatusByte_0);
             this.pnl_StatusBytes.Location = new System.Drawing.Point(701, 6);
             this.pnl_StatusBytes.Name = "pnl_StatusBytes";
-            this.pnl_StatusBytes.Size = new System.Drawing.Size(265, 433);
+            this.pnl_StatusBytes.Size = new System.Drawing.Size(265, 408);
             this.pnl_StatusBytes.TabIndex = 59;
             this.pnl_StatusBytes.Visible = false;
             // 
@@ -1187,7 +1192,7 @@
             this.pnl_Progress.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnl_Progress.Controls.Add(this.pb_2);
             this.pnl_Progress.Controls.Add(this.pb_1);
-            this.pnl_Progress.Location = new System.Drawing.Point(6, 559);
+            this.pnl_Progress.Location = new System.Drawing.Point(6, 534);
             this.pnl_Progress.Name = "pnl_Progress";
             this.pnl_Progress.Size = new System.Drawing.Size(958, 63);
             this.pnl_Progress.TabIndex = 9;
@@ -1219,7 +1224,7 @@
             this.pnl_Errors.Controls.Add(this.lbx_Errors);
             this.pnl_Errors.Controls.Add(this.lb_Errors);
             this.pnl_Errors.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl_Errors.Location = new System.Drawing.Point(6, 449);
+            this.pnl_Errors.Location = new System.Drawing.Point(6, 424);
             this.pnl_Errors.Name = "pnl_Errors";
             this.pnl_Errors.Size = new System.Drawing.Size(958, 104);
             this.pnl_Errors.TabIndex = 8;
@@ -1263,7 +1268,7 @@
             this.tc_Main.Location = new System.Drawing.Point(6, 6);
             this.tc_Main.Name = "tc_Main";
             this.tc_Main.SelectedIndex = 0;
-            this.tc_Main.Size = new System.Drawing.Size(673, 437);
+            this.tc_Main.Size = new System.Drawing.Size(673, 412);
             this.tc_Main.TabIndex = 4;
             // 
             // tp_InitConnect
@@ -1276,7 +1281,7 @@
             this.tp_InitConnect.Location = new System.Drawing.Point(4, 25);
             this.tp_InitConnect.Name = "tp_InitConnect";
             this.tp_InitConnect.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_InitConnect.Size = new System.Drawing.Size(665, 408);
+            this.tp_InitConnect.Size = new System.Drawing.Size(665, 383);
             this.tp_InitConnect.TabIndex = 0;
             this.tp_InitConnect.Text = "Initialisation and connection";
             // 
@@ -1451,7 +1456,7 @@
             this.tp_Properties.Location = new System.Drawing.Point(4, 25);
             this.tp_Properties.Name = "tp_Properties";
             this.tp_Properties.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_Properties.Size = new System.Drawing.Size(665, 408);
+            this.tp_Properties.Size = new System.Drawing.Size(665, 383);
             this.tp_Properties.TabIndex = 6;
             this.tp_Properties.Text = "Properties";
             this.tp_Properties.UseVisualStyleBackColor = true;
@@ -1675,7 +1680,7 @@
             this.tp_Behaviour.Location = new System.Drawing.Point(4, 25);
             this.tp_Behaviour.Name = "tp_Behaviour";
             this.tp_Behaviour.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_Behaviour.Size = new System.Drawing.Size(665, 408);
+            this.tp_Behaviour.Size = new System.Drawing.Size(665, 383);
             this.tp_Behaviour.TabIndex = 7;
             this.tp_Behaviour.Text = "Behaviour";
             this.tp_Behaviour.UseVisualStyleBackColor = true;
@@ -1981,7 +1986,7 @@
             this.tp_SystemInfo.Location = new System.Drawing.Point(4, 25);
             this.tp_SystemInfo.Name = "tp_SystemInfo";
             this.tp_SystemInfo.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_SystemInfo.Size = new System.Drawing.Size(665, 408);
+            this.tp_SystemInfo.Size = new System.Drawing.Size(665, 383);
             this.tp_SystemInfo.TabIndex = 2;
             this.tp_SystemInfo.Text = "COMServer - system info";
             this.tp_SystemInfo.UseVisualStyleBackColor = true;
@@ -1998,7 +2003,7 @@
             this.lbx_SystemInfo.Location = new System.Drawing.Point(6, 36);
             this.lbx_SystemInfo.Name = "lbx_SystemInfo";
             this.lbx_SystemInfo.ScrollAlwaysVisible = true;
-            this.lbx_SystemInfo.Size = new System.Drawing.Size(649, 349);
+            this.lbx_SystemInfo.Size = new System.Drawing.Size(649, 319);
             this.lbx_SystemInfo.TabIndex = 1;
             // 
             // btn_GetSystemInfo
@@ -2634,7 +2639,7 @@
             this.tabPOS.Location = new System.Drawing.Point(4, 29);
             this.tabPOS.Name = "tabPOS";
             this.tabPOS.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPOS.Size = new System.Drawing.Size(976, 644);
+            this.tabPOS.Size = new System.Drawing.Size(976, 619);
             this.tabPOS.TabIndex = 1;
             this.tabPOS.Text = "Point of sales";
             this.tabPOS.Click += new System.EventHandler(this.tabPOS_Click);
@@ -2649,7 +2654,7 @@
             this.panel_butoaneCasa.Controls.Add(this.button_Cautare);
             this.panel_butoaneCasa.Controls.Add(this.textBox_Cautare);
             this.panel_butoaneCasa.Controls.Add(this.comboBox_Cautare);
-            this.panel_butoaneCasa.Location = new System.Drawing.Point(402, 433);
+            this.panel_butoaneCasa.Location = new System.Drawing.Point(402, 408);
             this.panel_butoaneCasa.Name = "panel_butoaneCasa";
             this.panel_butoaneCasa.Size = new System.Drawing.Size(568, 201);
             this.panel_butoaneCasa.TabIndex = 2;
@@ -2710,7 +2715,7 @@
             this.tabControl_listeProduse.Location = new System.Drawing.Point(402, 6);
             this.tabControl_listeProduse.Name = "tabControl_listeProduse";
             this.tabControl_listeProduse.SelectedIndex = 0;
-            this.tabControl_listeProduse.Size = new System.Drawing.Size(568, 421);
+            this.tabControl_listeProduse.Size = new System.Drawing.Size(568, 396);
             this.tabControl_listeProduse.TabIndex = 1;
             // 
             // tab_ToateProdusele
@@ -2718,7 +2723,7 @@
             this.tab_ToateProdusele.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.tab_ToateProdusele.Location = new System.Drawing.Point(4, 29);
             this.tab_ToateProdusele.Name = "tab_ToateProdusele";
-            this.tab_ToateProdusele.Size = new System.Drawing.Size(560, 388);
+            this.tab_ToateProdusele.Size = new System.Drawing.Size(560, 363);
             this.tab_ToateProdusele.TabIndex = 1;
             this.tab_ToateProdusele.Text = "Toate Produsele";
             this.tab_ToateProdusele.UseVisualStyleBackColor = true;
@@ -2746,7 +2751,7 @@
             this.tab_Bonuri.Location = new System.Drawing.Point(3, 17);
             this.tab_Bonuri.Name = "tab_Bonuri";
             this.tab_Bonuri.SelectedIndex = 0;
-            this.tab_Bonuri.Size = new System.Drawing.Size(393, 621);
+            this.tab_Bonuri.Size = new System.Drawing.Size(393, 596);
             this.tab_Bonuri.TabIndex = 0;
             // 
             // tab_bon1
@@ -2758,7 +2763,7 @@
             this.tab_bon1.Location = new System.Drawing.Point(4, 36);
             this.tab_bon1.Name = "tab_bon1";
             this.tab_bon1.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_bon1.Size = new System.Drawing.Size(385, 581);
+            this.tab_bon1.Size = new System.Drawing.Size(385, 556);
             this.tab_bon1.TabIndex = 0;
             this.tab_bon1.Text = "Bon 1";
             // 
@@ -2805,12 +2810,44 @@
             this.tab_bonPDA.Text = "Bon PDA";
             this.tab_bonPDA.UseVisualStyleBackColor = true;
             // 
+            // label_status
+            // 
+            this.label_status.AutoSize = true;
+            this.label_status.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_status.Location = new System.Drawing.Point(12, 9);
+            this.label_status.Name = "label_status";
+            this.label_status.Size = new System.Drawing.Size(48, 16);
+            this.label_status.TabIndex = 9;
+            this.label_status.Text = "Status:";
+            // 
+            // label_FXstatus
+            // 
+            this.label_FXstatus.AutoSize = true;
+            this.label_FXstatus.Location = new System.Drawing.Point(66, 12);
+            this.label_FXstatus.Name = "label_FXstatus";
+            this.label_FXstatus.Size = new System.Drawing.Size(164, 13);
+            this.label_FXstatus.TabIndex = 10;
+            this.label_FXstatus.Text = "Casa de marcat DECONECTATA";
+            // 
+            // picture_status
+            // 
+            this.picture_status.Image = global::CSharp_Demo_01.Properties.Resources.notification_gsm_disconnected_icon;
+            this.picture_status.InitialImage = ((System.Drawing.Image)(resources.GetObject("picture_status.InitialImage")));
+            this.picture_status.Location = new System.Drawing.Point(236, 0);
+            this.picture_status.Name = "picture_status";
+            this.picture_status.Size = new System.Drawing.Size(25, 25);
+            this.picture_status.TabIndex = 11;
+            this.picture_status.TabStop = false;
+            // 
             // fm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1008, 701);
+            this.Controls.Add(this.picture_status);
+            this.Controls.Add(this.label_FXstatus);
+            this.Controls.Add(this.label_status);
             this.Controls.Add(this.tabControl1);
             this.DoubleBuffered = true;
             this.MinimumSize = new System.Drawing.Size(983, 739);
@@ -2871,7 +2908,9 @@
             this.panel_butoaneCasa.PerformLayout();
             this.tabControl_listeProduse.ResumeLayout(false);
             this.tab_Bonuri.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picture_status)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -3102,6 +3141,9 @@
         private System.Windows.Forms.TextBox textBox_Cautare;
         private System.Windows.Forms.Button button_Cautare;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label_status;
+        private System.Windows.Forms.Label label_FXstatus;
+        private System.Windows.Forms.PictureBox picture_status;
     }
 }
 

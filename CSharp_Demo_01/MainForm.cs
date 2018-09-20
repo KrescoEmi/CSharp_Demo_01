@@ -445,6 +445,10 @@ namespace CSharp_Demo_01
                // tc_Main.SelectedTab = tp_Properties; //Sari la tp_Properties!
                 this.tabPOS.Show();
                 tabControl1.TabPages.Add(tabPOS);
+                //schimbare imagine status
+                picture_status.Image = CSharp_Demo_01.Properties.Resources.Online_Shopping_icon;
+                //schimbare label_status
+                label_FXstatus.Text = "Casa de marcat CONECTATA";
 
                 pnl_StatusBytes.Visible = fDevice_Connected;
                 pnl_Errors.Visible = fDevice_Connected;
@@ -483,6 +487,13 @@ namespace CSharp_Demo_01
                 tc_Main.TabPages.Remove(tp_Properties);
                 this.tp_Behaviour.Hide();
                 tc_Main.TabPages.Remove(tp_Behaviour);
+                this.tabPOS.Hide();
+                tabControl1.TabPages.Remove(tabPOS);
+                //schimbare imagine status
+                picture_status.Image = CSharp_Demo_01.Properties.Resources.notification_gsm_disconnected_icon;
+                //schimbare label_status
+                label_FXstatus.Text = "Casa de marcat DECONECTATA";
+
                 tc_Main.SelectedTab = tp_InitConnect;
                 pnl_StatusBytes.Visible = fDevice_Connected;
                 pnl_Errors.Visible = fDevice_Connected;
@@ -583,6 +594,7 @@ namespace CSharp_Demo_01
             this.tp_Behaviour.Hide();
             tc_Main.TabPages.Remove(tp_Behaviour);
             this.tabPOS.Hide();
+
 
             pnl_StatusBytes.Visible = false;
             pnl_Errors.Visible = false;
