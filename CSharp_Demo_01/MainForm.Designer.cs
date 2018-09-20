@@ -253,6 +253,7 @@
             this.comboBox_Cautare = new System.Windows.Forms.ComboBox();
             this.textBox_Cautare = new System.Windows.Forms.TextBox();
             this.button_Cautare = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage_Settings.SuspendLayout();
             this.pnl_StatusBytes.SuspendLayout();
@@ -2745,6 +2746,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel_butoaneCasa.BackColor = System.Drawing.Color.LightSlateGray;
             this.panel_butoaneCasa.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel_butoaneCasa.Controls.Add(this.button1);
             this.panel_butoaneCasa.Controls.Add(this.button_Cautare);
             this.panel_butoaneCasa.Controls.Add(this.textBox_Cautare);
             this.panel_butoaneCasa.Controls.Add(this.comboBox_Cautare);
@@ -2789,6 +2791,15 @@
             this.button_Cautare.TabIndex = 2;
             this.button_Cautare.Text = "Cauta";
             this.button_Cautare.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(3, 158);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 36);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // fm
             // 
@@ -3086,6 +3097,7 @@
         private System.Windows.Forms.ComboBox comboBox_Cautare;
         private System.Windows.Forms.TextBox textBox_Cautare;
         private System.Windows.Forms.Button button_Cautare;
+        private System.Windows.Forms.Button button1;
     }
 }
 
