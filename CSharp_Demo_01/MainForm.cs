@@ -1896,6 +1896,15 @@ namespace CSharp_Demo_01
             }
         }
 
+        private void tabPOS_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_Cautare_Click(object sender, EventArgs e)
+        {
+            textBox_Cautare.Text = null;
+        }
     }
 }
 

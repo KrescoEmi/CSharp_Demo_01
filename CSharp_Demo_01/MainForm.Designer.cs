@@ -240,6 +240,19 @@
             this.tbResult = new System.Windows.Forms.TextBox();
             this.btGetCommandList = new System.Windows.Forms.Button();
             this.tabPOS = new System.Windows.Forms.TabPage();
+            this.tab_Bonuri = new System.Windows.Forms.TabControl();
+            this.tab_bon1 = new System.Windows.Forms.TabPage();
+            this.tab_bon2 = new System.Windows.Forms.TabPage();
+            this.tab_bon3 = new System.Windows.Forms.TabPage();
+            this.tab_bon4 = new System.Windows.Forms.TabPage();
+            this.tab_bonPDA = new System.Windows.Forms.TabPage();
+            this.tabControl_listeProduse = new System.Windows.Forms.TabControl();
+            this.tab_ToateProdusele = new System.Windows.Forms.TabPage();
+            this.tab_Departamente = new System.Windows.Forms.TabPage();
+            this.panel_butoaneCasa = new System.Windows.Forms.Panel();
+            this.comboBox_Cautare = new System.Windows.Forms.ComboBox();
+            this.textBox_Cautare = new System.Windows.Forms.TextBox();
+            this.button_Cautare = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage_Settings.SuspendLayout();
             this.pnl_StatusBytes.SuspendLayout();
@@ -271,6 +284,10 @@
             this.tp_HEX.SuspendLayout();
             this.tp_ANAF.SuspendLayout();
             this.tp_GetCommandList.SuspendLayout();
+            this.tabPOS.SuspendLayout();
+            this.tab_Bonuri.SuspendLayout();
+            this.tabControl_listeProduse.SuspendLayout();
+            this.panel_butoaneCasa.SuspendLayout();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -2606,12 +2623,172 @@
             // tabPOS
             // 
             this.tabPOS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.tabPOS.Location = new System.Drawing.Point(4, 22);
+            this.tabPOS.Controls.Add(this.panel_butoaneCasa);
+            this.tabPOS.Controls.Add(this.tabControl_listeProduse);
+            this.tabPOS.Controls.Add(this.tab_Bonuri);
+            this.tabPOS.Location = new System.Drawing.Point(4, 29);
             this.tabPOS.Name = "tabPOS";
             this.tabPOS.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPOS.Size = new System.Drawing.Size(976, 651);
+            this.tabPOS.Size = new System.Drawing.Size(976, 644);
             this.tabPOS.TabIndex = 1;
             this.tabPOS.Text = "Point of sales";
+            this.tabPOS.Click += new System.EventHandler(this.tabPOS_Click);
+            // 
+            // tab_Bonuri
+            // 
+            this.tab_Bonuri.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.tab_Bonuri.Appearance = System.Windows.Forms.TabAppearance.Buttons;
+            this.tab_Bonuri.Controls.Add(this.tab_bon1);
+            this.tab_Bonuri.Controls.Add(this.tab_bon2);
+            this.tab_Bonuri.Controls.Add(this.tab_bon3);
+            this.tab_Bonuri.Controls.Add(this.tab_bon4);
+            this.tab_Bonuri.Controls.Add(this.tab_bonPDA);
+            this.tab_Bonuri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tab_Bonuri.Location = new System.Drawing.Point(3, 17);
+            this.tab_Bonuri.Name = "tab_Bonuri";
+            this.tab_Bonuri.SelectedIndex = 0;
+            this.tab_Bonuri.Size = new System.Drawing.Size(393, 621);
+            this.tab_Bonuri.TabIndex = 0;
+            // 
+            // tab_bon1
+            // 
+            this.tab_bon1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.tab_bon1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tab_bon1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tab_bon1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tab_bon1.Location = new System.Drawing.Point(4, 36);
+            this.tab_bon1.Name = "tab_bon1";
+            this.tab_bon1.Padding = new System.Windows.Forms.Padding(3);
+            this.tab_bon1.Size = new System.Drawing.Size(385, 598);
+            this.tab_bon1.TabIndex = 0;
+            this.tab_bon1.Text = "Bon 1";
+            // 
+            // tab_bon2
+            // 
+            this.tab_bon2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.tab_bon2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tab_bon2.Location = new System.Drawing.Point(4, 36);
+            this.tab_bon2.Name = "tab_bon2";
+            this.tab_bon2.Padding = new System.Windows.Forms.Padding(3);
+            this.tab_bon2.Size = new System.Drawing.Size(385, 598);
+            this.tab_bon2.TabIndex = 1;
+            this.tab_bon2.Text = "Bon 2";
+            // 
+            // tab_bon3
+            // 
+            this.tab_bon3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tab_bon3.Location = new System.Drawing.Point(4, 36);
+            this.tab_bon3.Name = "tab_bon3";
+            this.tab_bon3.Padding = new System.Windows.Forms.Padding(3);
+            this.tab_bon3.Size = new System.Drawing.Size(385, 598);
+            this.tab_bon3.TabIndex = 2;
+            this.tab_bon3.Text = "Bon 3";
+            this.tab_bon3.UseVisualStyleBackColor = true;
+            // 
+            // tab_bon4
+            // 
+            this.tab_bon4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tab_bon4.Location = new System.Drawing.Point(4, 36);
+            this.tab_bon4.Name = "tab_bon4";
+            this.tab_bon4.Padding = new System.Windows.Forms.Padding(3);
+            this.tab_bon4.Size = new System.Drawing.Size(385, 598);
+            this.tab_bon4.TabIndex = 3;
+            this.tab_bon4.Text = "Bon 4";
+            this.tab_bon4.UseVisualStyleBackColor = true;
+            // 
+            // tab_bonPDA
+            // 
+            this.tab_bonPDA.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tab_bonPDA.Location = new System.Drawing.Point(4, 36);
+            this.tab_bonPDA.Name = "tab_bonPDA";
+            this.tab_bonPDA.Size = new System.Drawing.Size(385, 581);
+            this.tab_bonPDA.TabIndex = 4;
+            this.tab_bonPDA.Text = "Bon PDA";
+            this.tab_bonPDA.UseVisualStyleBackColor = true;
+            // 
+            // tabControl_listeProduse
+            // 
+            this.tabControl_listeProduse.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tabControl_listeProduse.Controls.Add(this.tab_ToateProdusele);
+            this.tabControl_listeProduse.Controls.Add(this.tab_Departamente);
+            this.tabControl_listeProduse.Location = new System.Drawing.Point(402, 6);
+            this.tabControl_listeProduse.Name = "tabControl_listeProduse";
+            this.tabControl_listeProduse.SelectedIndex = 0;
+            this.tabControl_listeProduse.Size = new System.Drawing.Size(568, 421);
+            this.tabControl_listeProduse.TabIndex = 1;
+            // 
+            // tab_ToateProdusele
+            // 
+            this.tab_ToateProdusele.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tab_ToateProdusele.Location = new System.Drawing.Point(4, 29);
+            this.tab_ToateProdusele.Name = "tab_ToateProdusele";
+            this.tab_ToateProdusele.Size = new System.Drawing.Size(560, 388);
+            this.tab_ToateProdusele.TabIndex = 1;
+            this.tab_ToateProdusele.Text = "Toate Produsele";
+            this.tab_ToateProdusele.UseVisualStyleBackColor = true;
+            // 
+            // tab_Departamente
+            // 
+            this.tab_Departamente.Location = new System.Drawing.Point(4, 29);
+            this.tab_Departamente.Name = "tab_Departamente";
+            this.tab_Departamente.Size = new System.Drawing.Size(560, 388);
+            this.tab_Departamente.TabIndex = 2;
+            this.tab_Departamente.Text = "Departamente";
+            this.tab_Departamente.UseVisualStyleBackColor = true;
+            // 
+            // panel_butoaneCasa
+            // 
+            this.panel_butoaneCasa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel_butoaneCasa.BackColor = System.Drawing.Color.LightSlateGray;
+            this.panel_butoaneCasa.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel_butoaneCasa.Controls.Add(this.button_Cautare);
+            this.panel_butoaneCasa.Controls.Add(this.textBox_Cautare);
+            this.panel_butoaneCasa.Controls.Add(this.comboBox_Cautare);
+            this.panel_butoaneCasa.Location = new System.Drawing.Point(402, 433);
+            this.panel_butoaneCasa.Name = "panel_butoaneCasa";
+            this.panel_butoaneCasa.Size = new System.Drawing.Size(568, 201);
+            this.panel_butoaneCasa.TabIndex = 2;
+            // 
+            // comboBox_Cautare
+            // 
+            this.comboBox_Cautare.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboBox_Cautare.FormattingEnabled = true;
+            this.comboBox_Cautare.Items.AddRange(new object[] {
+            "Denumire",
+            "Cod de bare",
+            "Cod intern",
+            "Departament"});
+            this.comboBox_Cautare.Location = new System.Drawing.Point(411, 39);
+            this.comboBox_Cautare.Name = "comboBox_Cautare";
+            this.comboBox_Cautare.Size = new System.Drawing.Size(149, 28);
+            this.comboBox_Cautare.TabIndex = 0;
+            this.comboBox_Cautare.Text = "Criterii de cautare";
+            // 
+            // textBox_Cautare
+            // 
+            this.textBox_Cautare.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox_Cautare.Location = new System.Drawing.Point(3, 3);
+            this.textBox_Cautare.Name = "textBox_Cautare";
+            this.textBox_Cautare.Size = new System.Drawing.Size(403, 26);
+            this.textBox_Cautare.TabIndex = 1;
+            this.textBox_Cautare.Text = "Cauta un produs...";
+            this.textBox_Cautare.Click += new System.EventHandler(this.textBox_Cautare_Click);
+            // 
+            // button_Cautare
+            // 
+            this.button_Cautare.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button_Cautare.Location = new System.Drawing.Point(411, 3);
+            this.button_Cautare.Name = "button_Cautare";
+            this.button_Cautare.Size = new System.Drawing.Size(150, 30);
+            this.button_Cautare.TabIndex = 2;
+            this.button_Cautare.Text = "Cauta";
+            this.button_Cautare.UseVisualStyleBackColor = true;
             // 
             // fm
             // 
@@ -2674,6 +2851,11 @@
             this.tp_ANAF.PerformLayout();
             this.tp_GetCommandList.ResumeLayout(false);
             this.tp_GetCommandList.PerformLayout();
+            this.tabPOS.ResumeLayout(false);
+            this.tab_Bonuri.ResumeLayout(false);
+            this.tabControl_listeProduse.ResumeLayout(false);
+            this.panel_butoaneCasa.ResumeLayout(false);
+            this.panel_butoaneCasa.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2891,6 +3073,19 @@
         private System.Windows.Forms.CheckBox chbx_S0_5;
         private System.Windows.Forms.CheckBox chbx_S0_6;
         private System.Windows.Forms.CheckBox chbx_S0_7;
+        private System.Windows.Forms.TabControl tab_Bonuri;
+        private System.Windows.Forms.TabPage tab_bon1;
+        private System.Windows.Forms.TabPage tab_bon2;
+        private System.Windows.Forms.TabPage tab_bon3;
+        private System.Windows.Forms.TabPage tab_bon4;
+        private System.Windows.Forms.TabPage tab_bonPDA;
+        private System.Windows.Forms.TabControl tabControl_listeProduse;
+        private System.Windows.Forms.TabPage tab_ToateProdusele;
+        private System.Windows.Forms.TabPage tab_Departamente;
+        private System.Windows.Forms.Panel panel_butoaneCasa;
+        private System.Windows.Forms.ComboBox comboBox_Cautare;
+        private System.Windows.Forms.TextBox textBox_Cautare;
+        private System.Windows.Forms.Button button_Cautare;
     }
 }
 
