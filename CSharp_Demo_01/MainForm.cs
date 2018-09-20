@@ -442,7 +442,10 @@ namespace CSharp_Demo_01
                 this.tp_ANAF.Show();
                 tc_Main.TabPages.Add(tp_GetCommandList);
                 this.tp_GetCommandList.Show();
-                tc_Main.SelectedTab = tp_Properties;
+               // tc_Main.SelectedTab = tp_Properties; //Sari la tp_Properties!
+                this.tabPOS.Show();
+                tabControl1.TabPages.Add(tabPOS);
+
                 pnl_StatusBytes.Visible = fDevice_Connected;
                 pnl_Errors.Visible = fDevice_Connected;
                 pnl_Progress.Visible = fDevice_Connected;
@@ -565,6 +568,8 @@ namespace CSharp_Demo_01
             fLastError_Code = 0;
             fLastError_Message = "";
             invalidCharacter1 = false;
+            this.tabPOS.Hide();
+            tabControl1.TabPages.Remove(tabPOS);
             this.tp_CustomCmds.Hide();
             tc_Main.TabPages.Remove(tp_CustomCmds);
             this.tp_SystemInfo.Hide();
@@ -577,6 +582,7 @@ namespace CSharp_Demo_01
             tc_Main.TabPages.Remove(tp_Properties);
             this.tp_Behaviour.Hide();
             tc_Main.TabPages.Remove(tp_Behaviour);
+            this.tabPOS.Hide();
 
             pnl_StatusBytes.Visible = false;
             pnl_Errors.Visible = false;
@@ -1085,6 +1091,9 @@ namespace CSharp_Demo_01
                 tc_Main.TabPages.Remove(tp_ANAF);
                 this.tp_GetCommandList.Hide();
                 tc_Main.TabPages.Remove(tp_GetCommandList);
+                this.tabPOS.Hide();
+                tabControl1.TabPages.Remove(tabPOS);
+
             }
         }
 
